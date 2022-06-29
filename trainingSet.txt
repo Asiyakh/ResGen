@@ -1,0 +1,517 @@
+Supported development teams for all the database related issues and handled the critical issues like network failures and ASM DISK group errors. 
+Generated Statspack/AWR reports using OEM 12C from Oracle 11g database and analysed the reports for Oracle wait events, time consuming SQL queries, tablespace growth, database growth. 
+Used Explain Plan, Oracle hints and creation of new indexes to improve the performance of SQL statements. Involved in SQL Query tuning and provided tuning recommendations to Application jobs, time/CPU consuming queries 
+Coordinated maintenance activities including shutdown and startup of db's and ec2 instances 
+Completed RDS backups before and after maintenance activities including upgrades and patching
+More than six years of experience in the IT industry as an Oracle Database Administrator (DBA), having extensive experience in production support, installation, configuration, upgrades, cloning, space management and database security management with Oracle Software on Red Hat Linux, Solaris, IBM AIX, and Windows platforms. 
+Possess high competency in advanced DBA skills such as backup, recovery and performance tuning. 
+Good exposure with Configuring Single Instance, Oracle Real Application Clusters (RAC) and Automatic Storage Management (ASM). 
+Experience in installing and patching Oracle RAC with ASM on IBM AIX, Solaris and Linux platforms. 
+Expertise in setting up Data Guard Failover, Switchover and Read-Only scenarios. Fabricated multiple Clone databases using the traditional method and Recovery Manager (RMAN) utility for high availability configuration. 
+Good exposure with Oracle DBA tasks like Installation, Patching, Cloning and Upgrading of Oracle Databases and Grid Infrastructure. 
+Extensive knowledge of database backup and recovery strategy using RMAN and configuration of Recovery Catalog for multiple databases. 
+Performed periodic backups, both full and incremental, and restoration recovery of database using the RMAN utility. 
+Exposure to SQL Tuning Advisor, SQL Profiles, SQL Monitoring, SQL Access Advisor, SQL Baselines, SQLTXTRACT tools and utilities. 
+Installed Oracle 10g and 11g RAC software with ASM and Oracle Cluster File System, Version 2 (OCFS2) on RHEL and HP-UX. 
+Experience in migration of Non-RAC database to RAC, RAC to Non-RAC using RMAN, RCONFIG and DBCA. 
+Experience with adding and deletion of Nodes in RAC. 
+Experience with upgrading databases from 10g and 11gR2 to 12c. 
+Work with Oracle Advanced Technologies like Oracle Enterprise Manager Grid Control, Oracle Streams, Data Guard and Real Application Clusters. 
+Implemented and configured replication technology using Data Guard installation, configuration and troubleshooting on Linux and UNIX Platforms. 
+Implemented different Backup and Recovery strategies using RMAN, Complete and Incomplete Recovery of databases during database crash, disk/media failure, etc. 
+Extensively used RMAN DUPLICATE to clone/duplicate target database and restore Tablespace Point-in-Time Recovery (TSPITR). 
+Efficiently implemented logical backups using tools like Oracle Data Pump Export/Import and Classic (Original) Export/Import. 
+Experience with applying security and quarterly (PSU & CPU) patches to the databases. 
+Cloning Oracle Application from PROD to DEV, TEST, and UAT environment. 
+Installation, configuration, patching, upgrading and maintenance of Oracle Applications and Oracle Databases. 
+Experience in replication using Materialized Views. 
+Security User Management, Privileges, Roles, Auditing, Profiling and Authentication. 
+Hands-on experience with the new Oracle FLASHBACK Technology like enabling Flashback feature, configuring FLASH RECOVERY AREA (FRA) and implementing Flashback recovery strategies like FLASHBACK Drop, FLASHBACK Table, FLASHBACK Query and FLASHBACK Database. 
+Performance Monitoring and Tuning of databases using tools like SQL Tuning Advisor, Sales Performance Management (SPM), Segment Advisor, STATSPACK, Automatic Workload Repository (AWR), Active Session History (ASH) and ADDM reports. 
+Experience working with SQL Tuning tools like SQL Trace, Explain Plan and SQL Profiles. 
+Oracle GoldenGate knowledge. 
+Configured and maintained unidirectional replication in GoldenGate. 
+Creating and maintaining Oracle Wallet and remote authentication. 
+Good understanding of System Development Life Cycle, Automatic Undo Management, RAID concepts and advanced features of Oracle 11g. 
+Expertise in Tuning memory, I/O and CPU utilization, Disk usage and Space utilization. 
+Upgrading and Migration of Oracle Database to higher version and other platforms using manual method and traditional Export/Import, Data Pump & Transportable Tablespace (TTS). 
+Experience in coding SQL, PL/SQL packages, functions, stored procedures, triggers, and Materialized Views for Oracle Database. 
+Hands-on experience with Logical backups, Hot/Cold backups, Recovery, and cloning of databases using RMAN, SQL-BackTrack, Veritas NetBackup. 
+Disk Space Management involving managing archives, space allocation to various tablespaces and capacity planning for new applications. 
+Expertise in configuring RMAN with Catalog/Nocatalog and worked on Point-In-Time Recovery and Flashback. 
+Plugging the tablespace between different platforms using Cross-Platform Transportable Tablespace utility. 
+Collected performance statistics using STATSPACK/AWR and Automatic Database Diagnostic Monitor (ADDM). 
+Used TKPROF utility and Explain Plan for tuning SQL queries. 
+Expertise in loading data from flat files using external tables and SQL*Loader. 
+Experience with SQL, PL/SQL and UNIX Shell Scripting. 
+Hands-on experience in tuning mappings, identifying and resolving performance bottlenecks in various levels like sources, targets, mappings, and sessions. 
+Excellent analytical, problem solving, communication and interpersonal skills. 
+Highly effective in communicating with engineers and technicians. 
+Skilled in detailed work, redefining a wide range of operational difficulties. 
+Strength in analyzing and improving electronics and administrative methods. 
+Committed to maintaining quality and efficiency. 
+Enjoy the challenge of providing high quality direct service to clients. 
+Proven ability to effectively facilitate communication between management and project personnel. 
+Highly inquisitive, creative and resourceful; goal oriented, and enthusiastic quick learner. Authorized to work in the US for any employer Work Experience Oracle Database Administrator SUNTRUST BANK - Tampa, FL February 2015 to Present 
+24x7 database administration, support and monitoring to ensure proactive problem recognition and resolution of database issues. 
+Migration of Oracle Databases from Windows to Linux. 
+Apply patches to Oracle Databases and Oracle Applications. 
+Upgrade development and production databases to Oracle 10g. 
+Proactive database monitoring using Oracle 10g grid monitoring tool. 
+Database tuning using SQL Trace, STATSPACK, EXPLAIN PLAN and TKPROF. 
+Extensive Performance Tuning, Memory (SGA) Tuning, NetBackup, EMC (TimeFinder and SRDF), RAID and RAW Devices. 
+Perform database cloning to set up test and development databases. 
+Responsible for optimizing the queries and application tuning. 
+Perform SQL Tuning and assist developers with coding PL/SQL. 
+Provide support to Application Database Administrators in designing the database. 
+Use RMAN for backup and recovery. Perform Hot, Cold and Logical backups. Perform backup validations using RMAN. 
+Management of schemas, objects partitioning the tables & indexes. 
+Automation of data load using KornShell scripting and SQL*Loader. 
+Responsible for setting and managing user accounts, and granting required privileges to users. 
+Perform other DBA activities such as space management and performance monitoring. 
+Experience in Oracle Database monitoring, troubleshooting and resolving issues. 
+Have implemented two types of standby databases supported by Data Guard, Logical standby and Physical standby databases in 11gR2 on two-node RAC. 
+Hands-on experience in Hot/Cold Backup, Recovery and Cloning of databases using RMAN with Veritas NetBackup and Commvault. 
+Implement Active Data Guard, creating both Logical and Physical Standby databases in 10g, 11g & 12c environment for the Production databases. 
+Configure and manage Data Guard extensively for Production databases of sizes ranging from 50GB to 5TB. 
+Performance Tuning - Gathering stats, creating indexes and tuning memory settings for optimal performance. 
+Work with 11gR2, 12c multi-node RAC/Non-RAC environment on LINUX, ASM, SCAN, and GIS. 
+Set up and configuration of Standby Databases, Active Data Guard, Snapshot Standby and Data Guard Broker. 
+Involvement in timely database and application releases for Oracle Applications in conjunction with the Development Team, Application Team, System Administrators and Release Teams. 
+Tuning of Oracle Database, tuning memory, I/O, Resource contention, Database operation and performance diagnostic tools (TKPROF, SQL Trace utility, Oracle Expert and Oracle SQL Analyze). 
+Frequent interaction with Developers, working with them in developing the applications using SQL Trace and Explain Plan utilities. 
+Implement partitioning on huge tables to improve performance and reduce maintenance to finite window operations. 
+Monitor databases using Oracle Enterprise Manager and Toad. Monitoring at the OS Level and monitor backups using the OASIS tool. 
+Install, configure, and maintain Oracle Audit Vault for auditing all of the databases at the same time. 
+Set up and Maintenance of Oracle Advanced features like Oracle FLASHBACK and Flash Recovery Area, Data Guard (Physical Standby) and Failover procedures. 
+Experience on OEM 12c installation. 
+Knowledge in the architecture design of OEM, Oracle Database and application monitoring. 
+Implement and configure GoldenGate in RAC environment. 
+Implement 11g Interval Partitioning for monthly partitioning of large tables. 
+Develop RMAN Backup strategies for cloning the test databases with the production environment and work on RMAN Active-Active Duplication. 
+Experience with logical backups EXPDP/IMPDP and extensively used for Re-hosting the application using GoldenGate. Worked with conventional EXP/IMP for migrating data from 9i to 10g. 
+Schedule RMAN backups, purge jobs, maintenance jobs using DBMS_JOBS, DBMS_SCHEDULER, Crontab and $Universe. 
+Design and implement different backup strategies like Hot, Cold, RMAN with Flash Recovery Area and Logical Backups EXPDP/IMPDP. 
+Handle Chained Rows and Row Migration, and solve the database performance issues. 
+Experience with ASM, adding, and deleting disks to the disk group. 
+Support development teams for all the database-related issues and handle the critical issues like network failures and ASM Disk Group errors and node failures in the RAC cluster. 
+Generate STATSPACK/AWR reports using OEM 12c from Oracle 11g database and analyze the reports for Oracle Wait Events, time consuming SQL Queries, tablespace growth, and database growth. 
+Use Explain Plan, Oracle Optimizer Hints and creation of new indexes to improve the performance of SQL statements. Involved in SQL Query tuning and provide tuning recommendations to application jobs, and time/CPU-consuming queries.  Tools Used: Oracle RMAN, Oracle 11g (11.2.0.2), DBMS STATS, Data Pump, SQL Trace, TKPROF and EXPLAIN PLAN Oracle Database Administrator ESTES-EXPRESS - Richmond, VA March 2013 to February 2015 
+Cloned and migrated databases using RMAN and traditional Data Pump Export/Import utilities in Oracle 10gR2. 
+Implemented recovery strategies whenever required and successfully recovered databases using RMAN if the database crashed or media/disk failed. 
+Scheduled the Physical backups (Hot & Cold) in Crontab using RMAN and monitored the scheduled jobs. 
+Performed configuration changes using Autoconfig. 
+Pre-Patch Analysis for the patches and document preparation with pre- and post-patch steps. 
+Applied patches (Maintenance Pack, Interoperability Patch, Release Update Patches (RUP), and Family Pack). 
+Created application users, user profiles, responsibilities, menus, and functions. 
+Validated and created grants & synonyms on APPS schemas. Performed JAR file/forms generation as a post-patch step, and Relinking the Oracle APPS programs. 
+Performed Application Tracing for various user sessions and for various concurrent programs. 
+Monitored the alert log and trace files for errors. 
+Performed cloning of Production database to TEST environment to provide user live data for testing purposes. 
+Managed OLTP databases, RAC and Non-RAC having 24x7 activities, handled all aspects of databases including administration, tuning, backup and recovery in Production, Test and Development environments. 
+Provided the database dumps and schema level dumps to DEV and TEST database environments. 
+Performed reorg of the schema/tables and data archiving at regular time intervals. 
+Planned and Scheduled Backup/Restoration Strategies and made backups of the database using RMAN. 
+Responsible for Creating Users, Groups, Roles, Profiles and assigning the users to groups and granting necessary privileges to the relevant groups. 
+Used SQL Trace, TKPROF, Explain Plan utilities for optimizing and tuning SQL queries. 
+Maintained data integrity and security using integrity constraints and database triggers. 
+Provided 24x7 support for all production and development databases. 
+Strong skills in applying security patches (Patch Set, Critical Patch Updates (CPU) / Patch Set Updates (PSU), One-off Patch) using √¨runInstaller√Æ and Perl based utility √¨OPatch√Æ. 
+Applied patches 10.2.0.2, 10.2.0.3 and 10.2.0.4. 
+Highly experienced in implementing Oracle's Transportable Tablespace (TTS) feature using Data Pump Export/Import of Oracle 10g and 11g allowing users to quickly move a user tablespace across Oracle Databases. 
+Expertise in implementing data refreshes at database, schema and table level using RMAN utility and Data Pump conventional Export/Import of Oracle 10g and 11g. 
+Performed installation and configuration of Oracle 10.2.0.1 database on the HP-UX platform. 
+Successfully performed migrations from Oracle 9i/10g to 10gR2 RAC (Real Application Cluster) database. 
+Successfully upgraded the databases from 11g to non-CDB (Container Database) on 12c. 
+Successfully migrated 12c non-CDB databases to Pluggable Databases (PDB). 
+Created Oracle Wallets and implemented tablespace level Transparent Data Encryption (TDE) security. 
+Constantly monitored the performance (Dynamic Performance (V$) Views) at peak load of the databases and viewed the alert log files and trace files. 
+Ran scripts to check the database status, such as growing table sizes, extent allocation, free space, used space, fragmentation etc. 
+Performed space management, capacity planning, disaster recovery and overall maintenance of the databases. 
+Created Physical Standby databases using RMAN with zero downtime. Performed Switchover and Failover using Data Guard Broker and manually performed this operation when required. 
+Worked extensively with Physical Standby database, troubleshooting, switchover and switchback with Physical Standby setup. 
+Provided routine technical support to Roche Diagnostics' customers on installation and maintenance aspects of molecular diagnostics system equipment and robotics. 
+Performed service, repair and installation of company products, including mechanical/system hardware and networking/wireless networking, sometimes working with the primary technical specialist. 
+Performed hardware updates on medical equipment using standard and specialized hand tools. 
+Performed software updates of medical devices. 
+Performed electrical safety tests on medical devices using an electrical safety analyzer. 
+Recorded test results. 
+Experienced in Installation and Maintaining Highly Critical Databases in any Operational mode on Unix/Linux, Sun Solaris.
+Experienced in 10g, 11g, 12c databases.
+Responsible for installing Oracle 11g and 12c in Single Node & Multi node's Configure host and listener. 
+Experienced in Creating Users, Roles and Profiles, Assigning Roles and Profiles to Users. 
+Experience on Data Guard setup 10g/11g/12c. 
+Expertise in Managing and monitoring Database Storage Structures, Data Files Space, Resizing and Adding new Data files. 
+Maintaining the Cold and Hot, Logical and RMAN Backups of the Databases.
+Performing Logical Backups Using Export Utility and Restoring Specific Object or Schema Using Import Utility. 
+Monitoring and Performing Daily incremental Backups, Weekly Backups Using RMAN. 
+Experience in Concept of Flashback Mechanism. 
+Experience on Cloning User man and RMAN.† 
+Experience on Applying patches to Database CPU and PSU and interim Patches.
+Champion Agile software development best practices, acting as a coach to the Scrum teams‚ 
+Support the Product Owner in grooming and maintaining the product backlog‚ 
+Track and communicate team status and progress via burnup and burndown charts, as well as other information radiators, to the team, management, and stakeholders, ensuring it accurately reflects current state‚ 
+Take responsibility for managing dependencies between the Scrum team and others, collaborating within the Scrum Master network especially with regard to items necessary for product release‚ 
+Demonstrate sense of urgency and responsiveness to complete work and solve problems, with a strong drive to persevere when faced with ambiguity.
+Proactively remove or escalate roadblocks to allow team progress. 
+Maintains relevant metrics to help the team monitor their performance. 
+Encourages continual improvement in Engineering practices to improve code quality and delivery. 
+Coordinates timely response and support to production line customer issues, when escalated Oracle Database Administrator/ Scrum Master 
+Ensured the team remained focused on continuously delivering working products.
+Track the teams process and made sure the agile process was being followed. 
+Worked with team members to rid of any impediments and keep progress continuous by escalating issues and removing outside barriers‚ 
+Developed sprint plans and tracked and monitored the status of completion. 
+Facilitating daily stand-ups, sprint planning, backlog grooming, and retrospective meetings.
+Updated the metrics to reflect accurate status of work being completed‚ 
+Personality to coordinate with teams members with different backgrounds while using different forms of communication.
+Installed, configured, and maintained Oracle 10g and 11gR2 on Linux and also Upgraded from Oracle 10g to 11g. 
+Extensive Experience with RMAN Backups, Hot Backups and Logical Backups.
+Strong skills in applying security patches (Patch set, Critical Patch Updates (CPU) / Patch Set Updates (PSU), One-off Patch) using "runInstaller" and perl based utility "opatch"
+Performance tuning of the database - SQL Tuning, Used Tuning utilities like STATSPACK, TKPROF. 
+Experienced in configuration of ASM for RAC and NON- RAC environments. 
+ Construction of Catalog databases and developed scripts to perform Backups of Large Databases to fit the backup window using RMAN. 
+Supported & maintained the Production/Development databases on various servers.
+Extensively worked on setting up auditing in many databases we supported.
+Managing Database Structure and Storage Allocation. 
+Monitored different databases and application servers using Oracle Enterprise Manager (OEM) 12c Grid Control. 
+Implement Grid based monitoring solution for large Databases and Installation of Cluster ware, configuring public, private and VIP. 
+Extensively worked in various areas of Data guard i.e. Installation, Recovery, RTA (Real Time Apply), Patching, Tuning, Switchover, Switchback and Failover.
+Implemented and configured 11g grid control on RHEL. 
+Configured Oracle Streams on Oracle 11g, 10g databases for data replication and monitored them using Grid Control.
+Automated the Data Replication process using Materialized Views for reporting databases.
+Used Oracle Enterprise Manager (OEM) 11g Grid Control for monitoring multiple database and notification of database alerts, and configured EM agents on multiple database servers. 
+Maintenance of Oracle 11gR2 Real Application Cluster (RAC) Database for High Availability, Scalability and Performance by determining the best Cluster architecture, choosing the best hardware configuration for Oracle RAC.‚ 
+Successful in installation/maintenance of Physical Standby database using Oracle Data Guard for Oracle 11.2.0.3 and Oracle 10.2.0.5 RAC databases.‚ 
+Implemented switchovers on primary and standby databases as a part of planned maintenance activities.
+ Used TOAD for database management. 
+Made optimal use of Oracle Support in resolving the SRs.
+Experience on Performance tuning and Troubleshooting of Database. 
+Maintaining Buffer Cache, Library Cache, and Dictionary Cache. 
+Taking Care of Wait Events, Analysing Instance and System Performance.
+Analysing the DB performance Using AWR, ASH and ADDM Reports. 
+Upgrade Database from 10g to 11g and 11g to 12c.
+Creation of ASM Databases, ASM Instances.
+Designed of Conceptual Logical Model and Physical Model 
+Implemented, supported and managed the database. 
+Kept data integrity and availability. 
+Designed, deployed and monitored database servers. 
+Managed user administration.
+Migrated different databases in SQL Management, PostgreSQL and Oracle.
+Migrated and created new database structures, such as tables, indexes and stored procedures from development to the production environment. 
+Created and tuned query, stored procedures, triggers, views and added/changed tables for data load and transformation, and data extraction. 
+Created backup and restored strategy of production, development and test environments. 
+Executed recovery databases and created the documentation to provide the disaster recovery processes. 
+Produced entity relationship & data flow diagrams, database normalization schemata logical to physical database maps, and data table parameters. 
+Installed and managed Database Server. 
+Created and monitored user accounts, user permissions, database extents and table partitions. 
+Implemented robust backup and recovery procedures based on data volatility and application availability requirements. 
+Monitored and optimized system performance using index tuning, disk optimization, and other methods. 
+Monitored the size of the transaction log. Managed databases on multiple disks using Disk Mirroring technology.
+Collected, stored, managed, and enabled the ability to query the organization's metadata. 
+Ensured data availability using administration tactics. 
+Designed, debugged, implemented, and maintained stored procedures, triggers, and user-defined functions that are stored in the DBMS
+Proficent in data modeling and database design. 
+Skilled at Metadata management and repository usage. 
+Experienced to manage large databases. 
+Able to organize the procedures that affect the database, such as backup and recovery procedures. 
+Able to solve technical problems that are caused by database design or malfunction. 
+Good communication skills to provide database help. 
+Procedural skills
+Ability to focus on deadlines and deliverables.
+Able to work with SQL Management, PostgreSQL, Oracle, MySQL, Microsoft Office
+Provided and designed DB tools to assist in the database management, transactions and processing environments. 
+ Assessed and executed implementation of new technologies.
+ Worked in coordination with company developers and project managers. 
+ Developed training programs and trained technical support and applications personnel to utilise on-line databases environment processes.
+Monitored performance and capacity to provide resolutions to system problems.
+Provided technical support for SQL database environment by overseeing databases development and organization. 
+ Communicated regularly with staff to ensure smooth flow of information from SQL database.
+ Created database with back-up system.
+ Monitored data availability for faster query response by user. 
+ Designed conceptual schema as per the client needs.
+ Looked after the security of company data from external access and threats.
+ Tested and installed latest versions of Database Management Systems in the firm.
+Involved in analysing business requirements, developing and designing data models.
+Able to work with SQL Management, PostgreSQL, Oracle, MySQL, Microsoft Office
+Creating and maintaining Oracle Wallet and remote authentication.
+Built pipelines to test the utility of automated feature creation, feature selection and algorithm selection & optimization functionalities offered by AutoML tools like H2O driverless AI and DataRobot for credit card loss forecasting
+Developed a POC for the model monitoring module of a credit card loan charge-off loss prediction model
+Developed a classification model for customer segmentation to inform marketing efforts using supervised machine learning techniques
+Architected and built an end-to-end ML pipeline including a flask application and deployed the solution in an in-house
+Explored architectures like GLMs, Neural Networks, Gradient Boosted Trees and ensemble models for modelling the propensity of an individual to be involved in a crime
+Helped UChicago Crime Lab validate their own model and identify additional features that may add lift and help improving the accuracy
+Led a team of five associates on a large-scale Salesforce Incentive Compensation Operations project; responsible for planning and workload distribution, ensuring quality and timeliness of all deliverables and facilitating all oral and written communication
+Successfully led the implementation of new IC plan changes including requirements gathering, implementation planning, POC evaluations, System Integration Testing, User Acceptance Testing and rollout
+Reduced cycle time by 75% and substantially improved quality in a Salesforce Territory Alignment Operations project by building an operationally efficient ETL process using SAS and in-house tools
+Analysed transaction level Specialty Pharmacy sales data in SAS and created a dynamic excel dashboard to study and track Key Performance Indicators for Specialty Pharmacies; Information was used by the client for contract renewals
+Applied regression modelling to quantify the impact of Salesforce Design change recommendations to maximise YoY sales growth
+Built a completely reproducible and modular machine learning app from proof of concept to production in Python, hosted on AWS EC2 with 82% ML model accuracy and stored customer logs in RDS MySQL database
+Built a model using CNN and bi-directional LSTM with a Beam Search decoder to recognize text in handwritten text images
+Used k-means clustering for customer segmentation to drive personalised recommendations via newsletter for a daily local newspaper
+Developed a clustering solution in Spark to cluster Venmo Transaction data using text based attributes
+Provided backend support for an on-premise legacy application that is migrating into the cloud.
+Developed a RESTful microservice application to expose the APIs running within cloud based containers.
+Configured JWT authentication and HTTPS protocols to establish cloud security measures.
+Built configurable logic for clinical assessment functionality to be leveraged by behavioral health programs.
+Automated daily reports on large scales of data to provide recommendations for a member’s plan of care.
+Reduced server outages by finding excess web service calls, logging statements, and database transactions.
+Optimised costly data refresh logic by identifying 50,000 records with a high likelihood of future activity.
+Built a recommendation system to deliver suggestions to members when searching for in-network providers.
+Used clustering and collaborative filtering to serve predictions in real time within a flask web application.
+Developed a web application to identify patients with a high risk of ASD hosted in Amazon Web Services.
+Used spinal and chest surgery recovery data to recommend cost reduction strategies for pain management.
+Presented findings to the hospital’s director of nursing research.
+Identified target customers for an advertising campaign and predicted purchase outcomes.
+Created XGBoost model to predict loan issue likelihood using Python
+Created Random Forest model to predict loan default likelihood using Python
+Combined results of both models to determine best advertising targets
+Created a Logistic Model with R to determine the probability of previous customers returning
+Used a Linear Model with R to forecast the amount each user would spend during the promotion
+Used SQL to access and transform CRM data and sales data
+Built a Data Warehouse to hold the data and scheduled a job, using Python, to update the Data Warehouse daily
+Created reports and dashboards for end users to consume using Power BI and Tableau
+Predictive modelling (Logistic Regression, Random Forest, Boosting Tree, SVM), Clustering, Neural Classified products into four categories based on the variability in monthly demand timing and demand quantity
+Built time series models in R to predict sales demand of products making up 80% of revenue, calculated weighted mean absolute percentage error in nested cross validation to select the best model for each product
+Predicted product demand three months ahead with selected models, designed a dashboard in Tableau reflecting demand trend and demand prediction by region and product type
+Pre-processed and cleaned data, extracted features and labels, trained and selected model in Python
+Constructed and connected EC2 instance, S3 bucket and RDS database in AWS for data upload and storage,
+created and linked pages with HTML to provide a website on predicting the athletic level of a soccer player
+Automated the reproduction process with Makefile, Yaml and Args
+Course topics: machine learning, data mining, databases, big data, NLP, deep learning, data visualization
+Future coursework: reinforcement learning, text analytics, business value from analytics
+Recipient of Kofi Annan Scholarship and 2 economics department prizes, GPA 3.91/4.00
+Conducted data deep dive using R with Presto/Hive SQL queries to uncover predictive signals of fraudulent and abusive accounts, in order to reduce their damage metrics to the network
+Identified major fraud types using TF-IDF method on text data and provided actionable feature recommendations to substantiate anti-abuse ML model and improve its recall and response time
+Scheduled scripts for automatic data ETL in Azkaban in order to monitor evolving fraud patterns
+Delivered a machine learning empowered app solution using python-Flask to categorize the entire database of current customers into distinct lifetime value buckets, and expandable to new customers
+Incorporated findings from a comprehensive survey as training label, and implemented supervised learning methods (XGBoost, random forest) to make prediction on not-in-survey customers, and achieved significant lift of offline cross-validated prediction accuracy from baseline
+Served as the main liaison with the client to manage project workflow and communications
+Performed comprehensive exploratory analyses and data cleansing on risk assessment records and insurance claim history, and developed systematic steps to merge the data, including fuzzy matching
+Employed GLM framework with standardization in R to create predictive models on claims
+Performed rigorous research and statistical analysis to aid economists testify for legal cases, and substantiated rebuttals by replicating opponents’ analysis to identify contrary evidence
+Examined the gigabytes of structured and unstructured datasets to answer key questions, synthesize insights, make inferences, and construct compelling narratives from the data
+Translated technical results into figures and illustrations intended for non-technical audiences
+Worked on 10+ cases for a variety of industries and functions, selected examples include: 
+Built automated reporting tool in Stata to assess monopoly power of hospitals in regional markets
+Built automated reporting tool in Stata to assess monopoly power of hospitals in regional markets
+Conducted econometric analysis to quantify wage discrimination in packaging factories
+Conducted econometric analysis to quantify wage discrimination in packaging factories
+Maintained and improved electricity marginal pricing models in Excel for utility providers
+Maintained and improved electricity marginal pricing models in Excel for utility providers
+Designed the interactive python-Flask app to make tennis match predictions using XGBoost model
+Built reproducible scripts end-to-end from data retrieval to UI, and hosted the app with AWS EC2
+Generated text classification model with Python on low-rate online reviews to raise the efficiency of team-disposition and problem-solving process, saving merchandise team 10 hours a week
+Developed visualizations and time series analytics on specials orders to reduce lead time and costs
+Conducted correlation and regression analysis to understand the impact of key macroeconomics variables on sales performance
+Developed automated regional pricing dashboards with PySpark in AWS environment to provide recommendations on implementing unbranded oil, highly valued and adopted for long term use
+Initialized reorganization and migration of company’s database from Excel files to Salesforce and generated clusters to reasonably distribute clients, increasing sales by 11%
+Managed planning and development of procedure for weekly and monthly metric reports
+Self-learned Apex in two months and received promotion to main Salesforce developer
+Led weekly 30-person sales meeting to motivate callers, augmenting calls by 100 /person /week
+Collaborated with a team of 5 in collecting and analyzing data of properties assessment, aced the project and established long-term cooperation with government
+Proposed notification process to IT department solutions for enhancing system efficiency
+Developed web app with AWS to understand the impact of house features and to predict final prices
+Built in the required structural criteria into the module classified data sets in R for training purposes
+Implemented gradient boosted tree, and random forest to help understand customer loyalty
+Constructed an optimized database containing targeted information; performed geo-statistics and clustering analysis with 18M+ records of fraudulent transactions data to identify hotspots in Python
+Built predictors with the results from geo-analysis that was capable of improving the true negative rate of current fraudulent prediction performance by ~10%
+Worked with a production team to integrate the new predictors and algorithm into current onboarding model
+Monitored the European and Pacific market performance; interacted with market demands forecasting model and revenue optimization system; improved the revenue performance of markets by ~15%
+Developed strategies and took responsibilities of revenue performances in China markets, which generated $200M+ revenue annually
+Collaborated with the pricing, operation research and sales teams to develop new data analytics tools and streamlined business processes and strategies
+Closely worked with the portfolio managers at Principal to design and build the portfolio construction tool in RShiny as a way to systemize the portfolio construction process
+Designed the optimization algorithm that minimized the differences between target and actual portfolios under the constrains set by clients
+Helped clients to implement the tool inhouse with detailed technical guide and stepwise user guide
+Collected and removed noises from the background of pictures data with web scrapping and API
+Built a deep learning autoencoder model capable of extracting the features from pictures and matching the most similar item from database with the user’s input; loss of the model decreased by 73.33%
+Presented final model and project poster at the Analytics Exchange annual data science conference
+Used SQL to build a report to monitor suspicious bookings and agencies’ malpractices, which affected over $1M+ annual revenue in Pacific markets
+Developed preventive strategies and worked with pricing, revenue integrity and operation research team on market implementation
+Successfully decreased fraudulent bookings by 20%+
+Developed an inventory planning system with 1M+ sales data records to optimize the inventory turnover ratio and increase profit
+Utilized Fourier Analysis and Croston Analysis to forecast demands of 15 active styles, and SKU ratio analysis to allocate demands to color, size and fit Programming: Java, Python, R, SQL, XML, Hadoop, PySpark, D3.js
+Data Analysis: Deep Learning, Database Engineering, Statistics, Probability, Optimization, Regression & Correlation,
+Software: Teradata, Jupyter Notebook, Git, Tableau, Minitab, Xpress, ExpertFit, Excel, Simio, SAS
+Language: English (Fluent), Mandarin Chinese (Native), Cantonese (Intermediate), Korean (Intermediate)
+Worked on forward thinking solutions to UPS last-mile package delivery operations tying together multiple disparate UPS data sources as well as 3rd party contemporaneous data sources
+Constructed visualizations of insights and findings to present to a UPS data science team & management
+Conducted deep dive industry interviews, organized responses, and helped formulate strategic marketing and business strategy advice for Fortune 1000 as well as local clients
+Led intern group on a major Memphis museum project, including brainstorming for a revamping of building grounds, creating a feasible business plan, and outlining a presentation for Memphis City Council
+Spearheaded research on middle market clients ranging from 10 to 400 million dollars in yearly revenue
+Assisted in creation of pitch books focusing on industry landscape, working with upper level management
+ Analyzed customer service surveys, linking respondents with membership and service data in order to model customer Net Promoter Score responses and identify key drivers leading to promoters and detractors
+Presented findings and methodology to cross-domain data science teams as well as departmental and divisional leadership, to include possible follow-on work and improvements to modelin.
+Established a robust, adaptable data ingest pipeline for API-based data that previously had not been routinely accessed, which was adopted by another data science team for related projects
+Managed 550 soldiers assigned to a headquarters company, tracking their training status and readiness
+Provided logistical support for over 900 personnel while deployed in Kuwait, providing weapons, ammunition, and equipment for movement into Iraq
+Incorporated reporting into collective situational understanding, facilitating higher level decision making
+Assisted in administration of the Information Management program and set standards for field reporting
+Briefed senior officers on intelligence developments within the province, supplemented by delivering “deep dive” analysis projects on local tribal dynamics, attacks trends, and potential sources of civil strife
+Supervised 12 intelligence analysts, monitoring their analysis of intelligence reporting, direction of assigned aerial and ground-based intelligence collection platforms, and publication of a daily intelligence summary
+ Led 18 soldiers in conducting patrols and combat operations while deployed to Kunar Province, Afghanistan
+ Planned and facilitated individual and collective training, including a team-level live ammunition exercise
+ Audio Engineering, Music Discovery, Running, Hiking, Camping, Maps/GIS
+ Trained a predictive model in Python to extract the most impactful variables in determining domain activation for
+Created reusable tables in Hive with > 100 million records of orders and customer data to allow for integration and feature engineering with PySpark
+Provided insights on conversion and product add-on rates based on user website behavior to influence marketing decisions and revenue tracking
+Automated Tableau dashboards through Hive queries to track the performance of company SEO and website design campaigns
+Conducted key driver regression analysis on textual data to determine the most impactful attributes behind client satisfaction
+Built a process in Alteryx to merge and clean disparate data sources in order to launch a corporate-wide VoC program and ingested results into Tableau via API connection
+Designed and developed Tableau dashboards monitoring key corporate metrics that were distributed to 10,000+ employees across the organization
+Identified top candidates for sales representative assignments based on past spending and tenure
+Built ETL pipeline to automate customer insights dashboards in Tableau for Executive Leadership
+Implemented customer segmentation program for the company’s legal research print business
+Developed prototype and metrics for a client lien portfolio benchmarking tool
+Improved the current system for generating estimated time of arrival for inbound shipments by 50% using stacked ensemble model consisting of LightGBM, K-NN, and Neural Networks with internal supply chain data and external data from APIs resulting in cost savings of $20MM/year
+Interacted with stakeholders and data engineers to productionalize and implement the model within AWS for live predictions
+Examined collaterals worth over $10B by modeling stress cases using Excel, Numpy, Pandas, Seaborn, Scikit, and VBA to structure diverse types of assets into secured products with low probability of default
+Communicated risk analysis directly with other banks and clients to identify suitable borrowing base and triggers
+Presented comprehensive reports on applying blockchain technology to securitization and examined how smart contracts can be applied to the fixed income market by fully developing blockchains using Ether and Hyperledger
+Developed and analyzed benchmark performance tests of different Amazon Web Services (AWS) EC-2 cloud computing configurations and compared them to local high performance computing clusters at Clemson
+Engineered cost analysis model for different AWS configurations based on consumer needs and performance levels
+Conducted psychological simulations on NetLogo to observe how different personal and relationship variables affect performance in an isolated environment using sentiment analysis
+Extracted text data from previous NASA space missions using Python to identify behavioral variables for the simulation model
+Leveraged natural language processing techniques to map employees to skill sets posted in job postings and grouped similar jobs based on skillset through clustering and latent dirichlet allocation topic modeling
+Designed a Digital Capacity Dimension to measure the capabilities of engineers and staff them onto the right projects
+Performed social network analysis to understand the distributions of Venmo’s transactions social network
+Engineered text-based attributes and emojis using regex and clustered transactions to classify each type of transaction
+Directed weekly shows on Chicago’s WNUR radio to introduce underrepresented music from Korea
+Programming: Python, MATLAB, R, Java, Excel, SQL, Git, JavaScript, HTML, AWS, C++, PySpark
+Developed an automatic feature engineering algorithm using Featuretools in Python and stacked denoising autoencoders
+Designed and implemented an unsupervised feature selection model:
+Designed a feature quality test by performing a k-fold CV with autoencoders, feature relationships’ stability and reliability will be tested based on the standard deviation of percentage differences between reconstruction errors on test and validation sets
+Built an XGBoost model with ROC of 0.978 for predicting whether a package will be successfully delivered or meeting a service time commitment supplemented by external weather, road closures and census data
+Implemented k-means clustering on routes and combined the results with the predictive model to investigate the relationship between clusters and last-mile successful delivery rates
+Designed anomaly detection models using time series forecasting on delivery data to identify abnormal delivery days
+Performed correlation analysis to identify the feature importance on bail condition compliance and implemented recursive feature elimination via caret in R to reduce feature dimension
+Built interpretable classification models (Logistic Regression, Random Forest, XGBoost, Naive Bayes) with 800k defendants’ demographic and criminal data, achieved a prediction accuracy of 82.96% and ROC of 0.87
+Analyzed condo segmentation based on k-means clustering; Studied the cluster centroids for feature selection
+Built a regularized regression model with adaptive lasso (!R 2: 0.873) and stacked hierarchical autoencoder to predict condo price
+Performed clustering on 7M Venmo transaction data to identify major transaction types using PySpark, SparkML and MLlib
+Identified transactional relationships between users, performed user segmentation based on transaction activity data
+Understood different dimensions that influence one’s subjective happiness and how those might vary across countries by doing feature selection using random forest on data collected from World Happiness Report
+Designed an interactive website using D3.js, HTML, CSS to visualize findings at time, region and socioeconomic levels
+Built generalized linear models in R to investigate statistical relationships between vehicle accidents and circumstantial factors such as weather, fuel station and idle time using 293k rows of vehicle activity data
+Created heatmap over city maps to visualize vehicle accident distributions using geohash in R (ggmap, ggplot2)
+Developed water demand & supply model in R using simultaneous equations model and regression techniques
+Built minimum spanning trees by Kruskal's algorithm in MATLAB to find efficient paths of water supply
+Built an XGBoost classifier (accuracy: 91%, ROC: 0.974) to detect malicious URLs primarily using URL strings as features
+Developed a full stack Flask app that hosted the model on AWS EC2, stored all user input and prediction results in RDS
+Generated new menus based on cuisine tags with CNN, LSTM and Bilateral LSTM using menu data scripted by scrapy.Spider
+Worked closely with management in developing a loan analytics platform for structured finance products in ASEAN.
+Mapped out user journeys and product features based on interviews with target financial institutions and investors.
+Proposed relational database design with accompanying data flows, design schemas, and data dictionary.
+Drove the development of a pipeline reporting process to effectively visualize and analyze key deal information and trends.
+Co-founded a late-night food service and a food waste repurposing startup on campus, utilizing lean canvas for fast ideation.
+Utilized Datashader and Dask for efficient visualization of large datasets of geolocation data on San Francisco businesses.
+Built optimization models with SciPy and PuLP to analyze pricing schemes and inventories for LA Metro Bike share.
+Applied NLP preprocessing framework on Apple App Store descriptions and identified app clusters with K-means cluster.
+Created cohort analysis with pandas for sales and retention rates of e-commerce customers to analyze purchase patterns.
+Led team of three engineers in creating a react native app connecting young professionals with pop-ups and food trucks.
+Managed relationships with users, vendors, and content partners, and conducted interviews to aid agile product planning.
+Scraped vendor and geojson data from over 300 vendor and partner sites with beautifulsoup, selenium, and requests.
+Developed a scoring algorithm that accounted for demographic biases and personalization with numpy, nltk, and TextBlob.
+Conducted network analysis on ingredients in recipes and used a custom metric favoring rare ingredients for edge weights.
+Designed a force-directed D3 graph that allowed users to filter network edges by strengths of different edge weights.
+Isolated pricing and availability trends in Pandas for Airbnb in Spain around specific events and landmarks.
+Designed an interactive scrolling storyboard using D3.js and Illustrator focused on geographical and temporal data.
+Performed social network analysis and text analysis on 7M Venmo transactions using PySpark and SparkML.
+Generated new menus based on cuisine tags with CNN and LSTM models with online menu data scraped with Scrapy spider.
+Developed pricing plan for Chicago Parks with seasonal and venue premiums based on ARIMA and clustering models.
+Built full stack Flask web app that hosted a model predicting average funding amounts based on startup characteristics.
+Identified unique reader interest groups for SF Chronicle from clustering on TFIDF features generated from article content.
+Built ETL pipeline for timeseries modeling using a combination of SQL and Pandas.
+Served models predicting user behavior for several products in a dashboard using R Shiny and Civis’ internal Platform software, utilizing Docker images and parallel model-running tools.
+Prepared digital streaming data for use as a proxy in first-party media attribution project.
+Composed pitch for new client with emphasis on big-picture insights and storytelling for sales.
+Modeled expected vs actual lift station usage in JMP to aid in decision to expand systems in factory.
+Led deployment of gas and chemical inventory management system. Designed system with multiple safety and security checks to ensure ease of use by technicians and performed onsite use test experiments.
+Created Markov Chain model in Python Pandas to build innovative sequences for yoga classes.
+ Creatively visualized generated sequences using Matplotlib, Pillow, and Canva.
+Built in checks to ensure that classes were accessible while maintaining variety and novelty.
+Calculated a “capacity” metric for each engineer across divisions, representing ability to contribute more or less work per unit time, to assist decision making for headcount reallocation.
+Designed Conjoint Analysis experiment to gauge managers’ priorities when hiring and assigning work.
+ Conducted sentiment analysis of hotel reviews using an LSTM in Tensorflow and logistic classification.
+Built interactive D3 visualization to display differences in AirBNB data between two cities.
+Performed text analysis of >7M Venmo transactions using Pyspark and SparkML.
+Used KNN clustering on TF-IDF features to segment digital subscribers of a major newspaper.
+Created machine learning models to predict which customers were most likely to choose a competitor for their next venture.
+For marketing suitable product offerings and measuring the impact of such marketing campaigns, identified
+unique segments (using clustering) from customers at risk of migrating to a competitor.
+To help gauge the worldwide regions growing the most in internet ventures, created deep learning models to
+To help gauge the worldwide regions growing the most in internet ventures, created deep learning models to
+predict the region of operation from the website URLs.
+Explored ERP data from multiple data sources (using SQL and R) to conduct data cleansing and feature
+engineering.
+Developed a mechanism to classify parts sales to a product family with 90% accuracy, which provided key metrics
+Developed a mechanism to classify parts sales to a product family with 90% accuracy, which provided key metrics
+needed for C-level reporting.
+Identified the causes of leakages in the aftermarket parts sales by analyzing dealer data.
+Designed a Hadoop based BI product providing preventive maintenance leads. The product was instrumental in
+Designed a Hadoop based BI product providing preventive maintenance leads. The product was instrumental in plugging the leakages in sales funnel, leading it to be adopted by 100+ dealers.
+Defined the product roadmap, managed the client’s feedback and helped the client’s team adopt agile practices
+Defined the product roadmap, managed the client’s feedback and helped the client’s team adopt agile practices enabling monthly product releases.
+Created user journeys for inventory booking, approval and customer agreement process for campaign management, reducing the customer service response time from a week to couple of days.
+Led the business analysis for this multi-phase program that aimed at providing a seamless money movement experience to the clients, financial advisors and the back-office operations through a single online banking platform.
+Ran workshops and focus groups to understand user needs and the requirements for product customization.
+Ran workshops and focus groups to understand user needs and the requirements for product customization.
+Worked closely with the delivery team to ensure that the delivered product met client’s expectations.
+Worked closely with the delivery team to ensure that the delivered product met client’s expectations.
+Developed classification model based on campaign attributes (Tree-based Models, Naïve Bayes, R)
+Contributed to the development of a pharmacogenomic risk stratification algorithm in R and Python using nonparametric predictive models and unsupervised learning methods
+Aided in the creation of a software development pipeline to create a production-ready version of said algorithm
+Created visualization dashboards in Tableau for communicating commercial operations KPIs and translating scientific developments into actionable business decisions
+Tested parameters and created code for a label propagation algorithm in MATLAB that utilized semi-supervised learning to detect remote homology across protein species using datasets ranging from 10,000 to 1,000,000 rows
+Designed and performed biophysics experiments on actin proteins involving Total Internal Reflection Fluorescence
+Collected information about customers’ reactions towards launching a new project through online surveys
+Created graphs about current profit, and developed a statistical model to assess which predictors are significant
+ Led meetings to discuss the prospects and possible risks of the project and put forward an initial proposal of finance lease
+Proposed future stock investment through analyzing macroeconomic and microeconomics report in recent quarters given by major brokerages
+Identified the most profitable industries using the financial software WIND
+Streamlined project management system by optimizing progress visualizations to automatically incorporate new data and show updates; reduced time and labor cost and offered leadership clearer views of project execution
+Centralized data from 5 testing units onto one platform; built executive dashboard and calculated crucial statistics to synthesize project progress; helped leadership identify delays and enhanced team coordination
+Divided customer-company relationship into 4 lifecycles using Gaussian Mixture and Gradient Boosting on 70,000 customer data in Python; helped investment advisors maintain a healthy relationship with customers
+Calculated customer churn probability and life value in stock market using Cox Hazards model; developed differentiated customer strategy based on their lifecycle, churn probability and life value to decrease leaving rate
+Systemized portfolio construction process by building construction and comparison prototype in RShiny through
+Optimized fund allocation engine using non-linear optimization in R; calculated ideal fund percentages under constraint to target asset mapping with least number of trades and money movement
+Extracted the color and shape of each clothing item in Zara database using K-Means and Auto-encoder in Python
+Found affordable substitutes for expensive items inputs using KNN with 73% decrease in training error and presented findings at the annual data science conference Analytics Exchange 2019 - Women in Data Science & AI
+Predicted and visualized subscriber amount in 2, 5, 8 years within 5% error margin given channel features using
+Created web app on Flask for user input and subscriber trend visualization; built pipeline from S3 to AWS RDS
+Analyzed Venmo’s degree distribution on 100M data in PySpark to visualize trend in reciprocal transaction
+Distinguished key features for transaction classification by conducting text mining on comments and emoji; classified and visualized transactions into 5 types for future customer strategy development using DBSCAN
+Led team of 4 to combine and analyze residential data in 5 datasets and predict churn probability using Random
+Presented insights on retaining customers through segmentation; ranked top 5 among 50 teams from 30 colleges
+Traveling (Egypt, Sahara, Amazon Forest); wine-tasting (WSET certificate); Zheng (classical Chinese instrument)
+Increased code efficiency 20% by streamlining current HQL script. Analyzed 200M+ credit data to generate consumer credit distribution and created 17 metrics to assess borrowing patterns among 9 lines of business.
+Composed quarterly Industry Insight Report to visualize and summarize credit trends in the U.S. consumer lending industry based on the metrics composed in Hive.
+Performed time series analysis and built seasonal ARIMA models to predict future 3 years’ quarterly credit bureau sales to identify potential growth and optimize KPI planning.
+Supported potential $100 million public offering by conducting audit assignment for Huanyou International Travel including confirmation letter assurance and revenue recognition tasks.
+Increased social media following number by 10% in 5 weeks by building a multivariate regression model in R-studio to identify factors that influence the online article views for the firm’s social media accounts.
+Selected and verified 600+ sample entries of CITCC’s book of accounts, including cash sales, interest income, accounts receivable, mortgage payments and dividend income to ensure the accuracy of transactions.
+Conducted comparable analysis of the firm’s financial statements to identify potential reasons of abnormal bank accounts and other significant differences in the companies’ financial statements compared to past performances.
+Led a store expansion project for Rainbow Bird and composed a proposal to the client based on the research of 5 competitor schools’ course structures, location selections and marketing strategies.
+Improved client bookings 40% and revenues 20% by redesigning course structure and employee compensation policy.
+Performed demand classification for over 13,000 products by analyzing the buying patterns using ~1.6M financial data.
+Conducted multiple time series analysis to identify the best predictive model within each demand category and forecast quarterly future demand for 1,300 products-plant combinations with accuracy higher than 80%.
+Built interactive dashboard in Tableau to provide visualizations for branch managers to optimize inventory planning.
+Created a system that helps users find affordable substitutes for their choice of outfits using TensorFlow.
+Built a CNN model and a K-Means model training on over 5000 pictures to learn the shape and extract the color of the input clothing items.
+Fitted a KNN model to identify the most similar item of the user input images, successfully decreased the loss of the baseline model by 73.33%.
+Predicted IOS store application ratings with supervised learning methods including Random Forest and XGBoost, increased the accuracy by 30% compared to the baseline linear regression model.
+Created interactive web app on Flask using HTML, JavaScript and Python, built the pipeline from S3 to AWS RDS.
+Cloned/Migrated databases using RMAN and traditional Datapump export/import utilities in Oracle 10gR2. 
+Implemented recovery strategies whenever required and successfully recovered databases in case database crash, media/disk failures by using RMAN. 
+Scheduling the Physical backups (hot & cold) in CRON tab using RMAN utility and monitoring the scheduled jobs. 
+Worked on Installation and maintenance of Oracle 11g, 12C RAC databases including Golden gate, ASM and CRS. 
+Responsible for Creating Users, Groups, Roles, Profiles and assigning the users to groups and grant necessary privileges to the relevant groups. 
+Used SQL TRACE, TKPROF, EXPLAIN PLAN utilities for optimizing and tuning SQL queries. 
+Maintained the data integrity and security using integrity constraints and database triggers. 
+Provided 24X7 support for all the production and development databases. 
+Strong skills in applying security patches (Patch set, Critical Patch Updates (CPU) / Patch Set Updates (PSU), One-off Patch) using "runInstaller" and perl based utility "opatch". 
+Highly experienced in implementing Oracle's Transportable Tablespace (TTS) feature using Datapump Export/Import (Oracle 11g, 10g) allowing users to quickly move a user Tablespace across Oracle databases. 
+Expertise in implementing data refreshes (at database, schema & table level) using RMAN utility and Datapump, conventional Export/Import of Oracle 11g, 10g. 
+Performed Installation and configuration of Oracle 10.2.0.1 database on HP-UX platform. 
+Successfully performed migrations from Oracle 9i/10g to 10gR2 RAC (Real Application) Database. 
+Successfully upgraded the databases from 11g to non CDB 12c. 
+Successfully migrated 12c Non CDB databases to pluggable databases. 
