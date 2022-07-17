@@ -11,6 +11,14 @@ with open('trial.txt') as f:
         text = pos_tag(word_tokenize(line))
         print(text)
 
+        f = open("output.txt", "a")
+        f.write(str(text))
+        f.close()
+
+        #open and read
+        f = open("output.txt", "r")
+        print(f.read())
+
 # try:
 #     _create_unverified_https_context = ssl._create_unverified_context
 # except AttributeError:
