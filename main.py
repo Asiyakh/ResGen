@@ -4,20 +4,18 @@ from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 import ssl
 
-with open('trial.txt') as f:
+with open('trainingSet.txt') as f:
     lines = f.readlines()
+    f = open("output.txt", "w")
 
     for line in lines:
-        text = pos_tag(word_tokenize(line))
-        print(text)
+        text = pos_tag(word_tokenize(line), tagset='universal')
 
-        f = open("output.txt", "a")
-        f.write(str(text))
-        f.close()
-
-        #open and read
-        f = open("output.txt", "r")
-        print(f.read())
+        for pair in text: # pair -> (word, tag)
+            f.write(str(pair))
+            f.write('\n')
+        
+    f.close()
 
 # try:
 #     _create_unverified_https_context = ssl._create_unverified_context
