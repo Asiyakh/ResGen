@@ -34,6 +34,7 @@ def transitionDict():
         line = line.strip(".\n")
         line=line.split(" ")
         count = 0
+        
         while count < len(line)-1:
             tag1, tag2 = '', ''
             for word, tag in pos_tag(word_tokenize(line[count]), tagset='universal'):
