@@ -44,7 +44,6 @@ def transitionDict():
             transition[tag1].append(tag2)
             count += 1
         transition[tag1].append("EOB")
-
     return transitionDictHelper(transition)
 
 def transitionDictHelper(transition):
