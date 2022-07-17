@@ -1,24 +1,32 @@
 #!/usr/bin/env python3
-from nltk.tokenize import word_tokenize
 import nltk
+from nltk.tag import pos_tag
+from nltk.tokenize import word_tokenize
 import ssl
-
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    pass
-else:
-    ssl._create_default_https_context = _create_unverified_https_context
-
-nltk.download()
 
 with open('trial.txt') as f:
     lines = f.readlines()
 
     for line in lines:
-        text = word_tokenize(line)
-        nltk.pos_tag(text)
+        text = pos_tag(word_tokenize(line))
         print(text)
+
+# try:
+#     _create_unverified_https_context = ssl._create_unverified_context
+# except AttributeError:
+#     pass
+# else:
+#     ssl._create_default_https_context = _create_unverified_https_context
+#
+# nltk.download()
+#
+# with open('trial.txt') as f:
+#     lines = f.readlines()
+#
+#     for line in lines:
+#         text = word_tokenize(line)
+#         nltk.pos_tag(text)
+#         print(text)
 
 
 # >>> from nltk.tokenize import word_tokenize
