@@ -4,6 +4,16 @@ from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 import ssl
 
+def priorTag():
+    f = open('trainingSet.txt')
+    lines = f.readlines()
+    tags=[]
+
+    for line in lines:
+        text = pos_tag(word_tokenize(line), tagset='universal')
+        tags.append(text[0][1])
+    return tags
+
 with open('trainingSet.txt') as f:
     lines = f.readlines()
     f = open("output.txt", "w")
