@@ -41,8 +41,8 @@ if __name__ == '__main__':
         while word != "EOB":
             bulletpoint.write(word)
             bulletpoint.write(" ")
-            word = random.choice(transition[word])
-        
+            # if transition[word]: 
+            word = random.choice(transition[word]) # Cannot choose from an empty sequence
         bulletpoint.write(".\n") 
         count += 1
     
