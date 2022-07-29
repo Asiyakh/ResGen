@@ -34,40 +34,6 @@ def priorDict():
         priorDict[tag] = prior.count(tag)/tot
     return priorDict
 
-# def transitionDict():
-#     transition = defaultdict(list)
-#     pos = open("output.txt", "r")
-#     tag1 = None
-#     tag2 = None
-#     for line in pos:
-#         line = line.split(",")
-#         if not tag1:
-#             tag1=line[1]
-#             continue
-#         if not tag2:
-#             tag2=line[1]
-#             transition[tag1].append(tag2)
-#             continue
-        
-#     # bulletpoints = open("trainingSet.txt", "r")
-#     # for line in bulletpoints:
-#     #     line = line.strip(".\n")
-#     #     line=line.split(" ")
-#     #     count = 0
-#     #     while count < len(line)-1:
-#     #         tag1, tag2 = '', ''
-#     #         for word, tag in pos_tag(word_tokenize(line[count]), tagset='universal'):
-#     #             tag1 = tag
-#     #         for word, tag in pos_tag(word_tokenize(line[count+1]), tagset='universal'):
-#     #             tag2 = tag
-            
-#         tag1 = tag2
-#         tag2 = line[1]
-#         transition[tag1].append("EOB")
-
-#     # print(transitionDictHelper(transition))
-#     return transitionDictHelper(transition)
-
 def transitionDict():
     transition = defaultdict(list)
     bulletpoints = open("trainingSet.txt", "r")
@@ -105,13 +71,6 @@ def buildTransition():
             newTransition[tag1] = newTransition1
         else:
             (newTransition[tag1])[tag2] = percentage[0]
-    # probs = np.array(list(newTransition[tag].values()))
-    # probs /= probs.sum()
-    # # print(np.random.choice(list(newTransition[tag].keys()), 1, True, p=probs)[0])
-    # print(newTransition)
-    #return np.random.choice(list(newTransition[tag].keys()), 1, True, p=probs)[0]
-    # for value in UNIVERSAL_TAGS:
-    #     print(sum(list(newTransition[value].values())))
     return newTransition
 
     
@@ -126,13 +85,12 @@ def emissionDict():
 
         for word, tag in text:
             if tag in organizedTags:
-                organizedTags[tag].append(word)
+                organizedTags[tag].append(word.lower())
             else:
-                organizedTags[tag] = [word]
+                organizedTags[tag] = [word.lower()]
 
         count += 1
         organizedTags[line[count]].append("EOB")
-        
     return emissionDictHelper(organizedTags)
 
 def emissionDictHelper(organizedTags):
@@ -161,31 +119,25 @@ def buildEmission():
         else:
             (newEmission[tag])[word] = percentage
     return newEmission
-    # return np.random.choice(list(newEmission[nextTag].keys()), 1, True, list(newEmission[nextTag].values()))[0]
 
 if __name__ == '__main__':
-    # buildEmission()
-    # buildTransition()
-    # priorDict()
-    # transitionDict()
-    # emissionDict()
-    # prior = priorDict()
-    # buildPrior(prior)
 
     prior = priorDict()
     transition = buildTransition()
     emission = buildEmission()
-    bulletpoint = open("bulletPoints.txt", "w")
+    bulletpoint = open("res-gen/src/Output/HMMbulletPoints.txt", "w")
     count = 0
     while count < 500:
         tag = buildPrior(prior)
         while tag != ".":
-            word = tag # should be changed to actual word
+            probs = np.array(list(emission[tag].values()))
+            probs /= probs.sum()
+            word = np.random.choice(list(emission[tag].keys()), 1, True, probs)[0]
             bulletpoint.write(word)
             bulletpoint.write(" ")
             probs = np.array(list(transition[tag].values()))
             probs /= probs.sum()
             #getting a probability error when probs = 1. idk why
-            tag = np.random.choice(list(transition[tag].keys()), 1, True, list(transition[tag].values()))[0] 
+            tag = np.random.choice(list(transition[tag].keys()), 1, True, probs)[0]
         bulletpoint.write(".\n") 
         count += 1
