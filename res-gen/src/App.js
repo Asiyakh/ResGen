@@ -1,6 +1,7 @@
 import {Typography, Button, Grid} from '@mui/material'
 import { useState } from 'react'
-import raw from "./Output/MMbulletPoints.txt"
+import mm from "./Output/MMbulletPoints.txt"
+import hmm from "./Output/HMMbulletPoints.txt"
 
 function App() {
 
@@ -10,18 +11,24 @@ function App() {
 
 
 
-  function readTextFile(file){
+  function readMMTextFile(file){
     fetch(file)
     .then(r => r.text())
     .then(text => getMMBullet(text.split('\n')[Math.floor((Math.random() * 500) + 1)]));
   }
 
+  function readHMMTextFile(file){
+    fetch(file)
+    .then(r => r.text())
+    .then(text => getHMMBullet(text.split('\n')[Math.floor((Math.random() * 500) + 1)]));
+  }
+
   const unHideMM = () => { 
-    getMMBullet(readTextFile(raw))
+    getMMBullet(readMMTextFile(mm))
   }
 
   const unHideHMM = () => {
-    getHMMBullet("insert bulletpoint")
+    getHMMBullet(readHMMTextFile(hmm))
   }
 
   const unHideHF = () => {
