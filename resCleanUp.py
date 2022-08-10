@@ -19,13 +19,18 @@ with bigfile:
 ### STEP 2: SEPERATE BULLET POINTS
 
 # import os
-# bigfile = open("smallRes/small_res_1000.txt", "r").readlines()
-# line = bigfile[10]
-# bulletpoint = open("bulletPoints_1000.txt", "w")
-# sol = line.split("√Ø ")
-# for s in sol:
-#     bulletpoint.write(s)
-#     bulletpoint.write("\n")
+# bulletpoint = open("trainingSet.txt", "w")
+# os.chdir("./smallRes")
+# for file in os.listdir("./"):
+#     openfile = open(file, encoding="utf8", errors='ignore')
+#     bigfile = openfile.readlines()
+#     line = bigfile[10]
+#     sol = line.split("√Ø ")
+#     for s in sol[1:]:
+#         s = s.replace('‚Ä†', '')
+#         bulletpoint.write(s)
+#         bulletpoint.write("\n")
+#     openfile.close()
 
 
     

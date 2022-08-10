@@ -7,7 +7,7 @@ from collections import defaultdict
 from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 from regex import R
-from main import priorTag
+from tagging import priorTag
 
 UNIVERSAL_TAGS = [
     "VERB",
@@ -97,7 +97,7 @@ def emissionDictHelper(organizedTags):
     # organizedTags: {tag:[List of words with this tag]}
     organizedTagsWithProbability = defaultdict(list)
 
-    tups = open("output.txt", "r")
+    tups = open("tags.txt", "r")
     for pair in tups:
         fullLine = pair[1:-2].split(",")
         word = fullLine[0][1:-1]
