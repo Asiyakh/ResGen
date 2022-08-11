@@ -1,4 +1,6 @@
+from sre_parse import Tokenizer
 import token
+import tokenize
 import transformers
 import torch
 import torch.nn as nn
@@ -38,7 +40,7 @@ def priorDict(): # This function returns list of toekens #ignore all the comment
     # sample_text = "Hi my name is nima."
     # tokens = tokenizer.tokenize(sample_text)
     # print (tokens[0])
-    # return None
+    # # return None
     # init_token = tokenizer.cls_token
     # pad_token = tokenizer.pad_token
     # unk_token = tokenizer.unk_token
@@ -48,11 +50,11 @@ def priorDict(): # This function returns list of toekens #ignore all the comment
     # unk_token_idx = tokenizer.convert_tokens_to_ids(unk_token)
     # max_input_length = tokenizer.max_model_input_sizes['bert-base-uncased']
 
-    # # print(init_token, pad_token, unk_token)
+    # print(init_token, pad_token, unk_token)
     # SEED = 1234
 
-    # random.seed(SEED)
-    # np.random.seed(SEED)
+    # # random.seed(SEED)
+    # # np.random.seed(SEED)
     # torch.manual_seed(SEED)
     # torch.backends.cudnn.deterministic = True
 
@@ -79,19 +81,24 @@ def priorDict(): # This function returns list of toekens #ignore all the comment
     # train_data, valid_data, test_data = datasets.UDPOS.splits(fields)
     # print(vars(train_data.examples[0]))
 
-    f = open('trainingSet.txt')
-    lines = f.readlines()
-    tags = []
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    #COMMENTED OUT BY SHAY
+    # f = open('trainingSet.txt')
+    # lines = f.readlines()
+    # tags = []
+    # tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+    #END
+
     # for token in tokenizer.vocab.keys():
     #     (token)
         # print(token)
 
-    for line in lines:
-        # tokens = tokenizer.tokenize("[CLS] " + line + " [SEP]")
-        tokens = tokenizer.tokenize(line)
-        tokenIds = tokenizer.convert_tokens_to_ids(tokens)
-        tags.append(tokens)
+    # for line in lines:
+    #     # tokens = tokenizer.tokenize("[CLS] " + line + " [SEP]")
+    #     tokens = tokenizer.tokenize(line)
+    #     tokenIds = tokenizer.convert_tokens_to_ids(tokens)
+    #     tags.append(tokens)
+
+
         # tags.append(tokenizer.convert_tokens_to_ids((tokens[0])))
         # print(f'Bullet point: {line}')
         # print(f'Tokens: {tokens}' )
@@ -100,11 +107,51 @@ def priorDict(): # This function returns list of toekens #ignore all the comment
 
     # print(tags)
     # print(tags.count("generated")
+
+
+    #COMMENTED OUT BY SHAY
+    # return tags
+
+
+
+    #-------------------------------------------------------------------------------
+    #asiya and shay rework
+    f = open('trainingSet.txt')
+    lines = f.readlines()
+    tags = []
+    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+
+    numTag = []
+
+    for line in lines:
+        tokens = tokenizer.tokenize("[CLS]" + line + "[SEP]")
+        tokenIds = tokenizer.convert_tokens_to_ids(tokens)
+        tags.append(tokens)
+        numTag.append(tokenIds)
     return tags
 
 def getBulletPointPrefix(): #better name for function
-    # take list created in above function and convert every word to its number usinh tokenizer.convert_tokens_to_ids(pad_token).. 
+    # take list created in above function and convert every word to its number usinh tokenizer.convert_tokens_to_ids(pad_token)..
     # make sure to pad so we know were to start/end 101/102 i believe (a lot of it in the code above commented out)
+    tokenizer = transformers.BertTokenizer.from_pretrained('bert-base-uncased')
+    
+    #101 beginning
+    init_token = tokenizer.cls_token
+    start = tokenizer.convert_tokens_to_ids(init_token)
+
+    #100 end
+    sep_token = tokenizer.sep_token
+    end = tokenizer.convert_tokens_to_ids(sep_token)
+    
+    hi = priorDict()
+    b_list = []
+    for sentence in hi:
+        s_list = [start]
+        s_list.extend(tokenizer.convert_tokens_to_ids(sentence))
+        s_list.append(end)
+        b_list.append(s_list)
+    print(b_list)
+
     # use the probbabiliy.. i tried to use seed but im confused aboyut that
     # after getting prob, u should be able to get next best word which is a number bc we coberted the token and then untokenize it
     # meaning pyt it as a word and thats the next word
@@ -115,6 +162,7 @@ def getBulletPointPrefix(): #better name for function
 
 
 if __name__ == '__main__':
-    prior = priorDict()
-    print(prior)
+    getBulletPointPrefix()
+    # prior = priorDict()
+    # print(prior)
 
