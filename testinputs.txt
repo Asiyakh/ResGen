@@ -1,0 +1,10 @@
+Built pipelines to test the utility of automated feature creation, feature selection, algorithm selection and optimization functionalities offered by AutoML tools like H2O driverless AI and DataRobot for credit card loss forecasting
+Developed a POC for the model monitoring module of a credit card loan charge-off loss prediction model
+Developed a classification model for customer segmentation to inform marketing efforts using supervised machine learning techniques
+Architected and built an end-to-end ML pipeline including a flask application and deployed the solution in an in-house
+Explored architectures like GLMs, Neural Networks, Gradient Boosted Trees and ensemble models for modeling the propensity of an individual to be involved in a crime
+Helped UChicago Crime Lab validate their own model and identify additional features that may add lift and help improving the accuracy
+Led a team of five associates on a large-scale Salesforce Incentive Compensation Operations project; responsible for planning and workload distribution, ensuring quality and timeliness of all deliverables and facilitating all oral and written communication
+Successfully led the implementation of new IC plan changes including requirements gathering, implementation planning, POC evaluations, System Integration Testing, User Acceptance Testing and rollout
+Reduced cycle time by 75% and substantially improved quality in a Salesforce Territory Alignment Operations project by building an operationally efficient ETL process using SAS and in-house tools
+Analyzed transaction level Specialty Pharmacy sales data in SAS and created a dynamic excel dashboard to study and track Key Performance Indicators for Specialty Pharmacies; Information was used by the client for contract renewals

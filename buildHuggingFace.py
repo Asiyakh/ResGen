@@ -7,6 +7,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import torch as nlp
+import gensim.downloader as api #gensim API
+import string
 
 # from torchtext.legacy import data
 # from torchtext.legacy import datasets
@@ -130,27 +132,54 @@ def priorDict(): # This function returns list of toekens #ignore all the comment
         numTag.append(tokenIds)
     return tags
 
+def clean_bullets(doc):
+    """
+    This function removes special characters from bullet points and converts to lower case
+    :param doc: a pointer to the file containing bullers
+    :return: a list of lists of 'tokens'.  Each list of tokens represents cleaned words in a single bullet.
+    """
+    lines = doc.split('\n')
+    lines_clean = []
+    for line in lines: #cycle thru every bullet (one per line)
+        tokens = line.split()
+        table = str.maketrans('', '', string.punctuation)
+        tokens = [w.translate(table) for w in tokens] #remove punctuation
+        tokens = [word for word in tokens if word.isalpha()] #retain only alphabetical characters
+        tokens = [word.lower() for word in tokens] #convert to lower case
+        tokens = ' '.join(tokens)
+        lines_clean.append(tokens)
+
+    return lines_clean
+
 def getBulletPointPrefix(): #better name for function
     # take list created in above function and convert every word to its number usinh tokenizer.convert_tokens_to_ids(pad_token)..
     # make sure to pad so we know were to start/end 101/102 i believe (a lot of it in the code above commented out)
-    tokenizer = transformers.BertTokenizer.from_pretrained('bert-base-uncased')
-    
-    #101 beginning
-    init_token = tokenizer.cls_token
-    start = tokenizer.convert_tokens_to_ids(init_token)
+    file = open('testinputs.txt', 'r')  # This file contains some bullets we want to use as seeds
+    doc = file.read()
+    file.close()
+    lines = clean_bullets(doc)
 
-    #100 end
-    sep_token = tokenizer.sep_token
-    end = tokenizer.convert_tokens_to_ids(sep_token)
-    
-    hi = priorDict()
-    b_list = []
-    for sentence in hi:
-        s_list = [start]
-        s_list.extend(tokenizer.convert_tokens_to_ids(sentence))
-        s_list.append(end)
-        b_list.append(s_list)
-    print(b_list)
+    word_vectors = api.load("glove-twitter-25") #load pre-trained GLOVE word vectors, trained on twitter data
+    punctuation = ["!", ",", ".", "?"]   
+
+    print("BULLETS BASED ON LOOKUPS OF WORDS WITH SIMILAR EMBEDDINGS:")
+
+    for i in range(0, 10):  # for each "seed" bullet
+        sentence = lines[i]
+        sentence = sentence.split()
+        prompt = " ".join(sentence[0:5])  # pull out the FIRST FIVE WORDS
+        suffix = sentence[5:] # we'll generate a suffix by locating synonyms for each word in the seed's suffix
+        for word in suffix:
+            try:
+                result = word_vectors.similar_by_word(word) #are there similar words?  If yes locate the top 10 most similar
+                result = [x[0] for x in result] #create a list of similar words
+                #choice = random.choice(result) #pick one of the most similar ones at random
+                choice = result[0] #alternately, select the MOST similar word based on embedding proximity
+            except: #we will end up here if there are NO similar words among the training data
+                choice = word
+            if choice not in punctuation: #if we generated a punctuation symbol, we don't want it
+                prompt = prompt + " " + choice
+        print(prompt.capitalize() + ".")
 
     # use the probbabiliy.. i tried to use seed but im confused aboyut that
     # after getting prob, u should be able to get next best word which is a number bc we coberted the token and then untokenize it
