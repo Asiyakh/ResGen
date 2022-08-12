@@ -36,6 +36,8 @@ function App() {
   }
 
   return (
+    <>
+    <Button variant="outlined" sx={{margin:'10px 10px', float: 'right'}} href="/about">Learn More</Button>
     <Grid container direction="column"
     justifyContent="center"
     alignItems="center"
@@ -57,6 +59,7 @@ function App() {
 
       {!!HFBullet && <Typography><Typography display='inline' fontWeight={800}> Transformer Model: </Typography> {HFBullet}</Typography>}
     </Grid>
+    </>
   );
 }
 
