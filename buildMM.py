@@ -32,19 +32,28 @@ def buildPrior(prior):
     return np.random.choice(list(prior.keys()), 1, True, new)[0]
 
 if __name__ == '__main__':
-    prior = priorDict()
+        
     transition = transitionDict()
     bulletpoint = open("bulletPoints.txt", "w")
-    count = 0
-    while count < 500:
+    seed = input("Start your bullet point with: ") # generate with
+
+    if not seed:
+        prior = priorDict()
         word = buildPrior(prior)
-        while word != "EOB":
-            bulletpoint.write(word)
-            bulletpoint.write(" ")
-            # if transition[word]: 
-            word = random.choice(transition[word]) # Cannot choose from an empty sequence
-        bulletpoint.write(".\n") 
-        count += 1
+    else:
+        for s in seed.split(' ')[:-1]:
+            bulletpoint.write(s)
+            bulletpoint.write(' ')
+        word = seed.split(' ')[-1] # [generate, with]
+
+    while word != "EOB":
+        bulletpoint.write(word)
+        word = random.choice(transition[word])
+        if word == "EOB":
+            bulletpoint.write(".\n") 
+            pass
+        bulletpoint.write(" ")
+        # if transition[word]: 
     
     
     
