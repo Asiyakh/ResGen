@@ -34,7 +34,26 @@ def buildPrior(prior):
     return np.random.choice(list(prior.keys()), 1, True, new)[0]
 
 def sol(seed):
-    return seed + " continued"
+    transition=transitionDict()
+    bulletpoint = ""
+    if not seed:
+        prior = priorDict()
+        word = buildPrior(prior)
+    else:
+        for s in seed.split(' ')[:-1]:
+            bulletpoint+=s
+            bulletpoint+=' '
+        word = seed.split(' ')[-1] # [generate, with]
+
+    while word != "EOB":
+        bulletpoint+=word
+        word = np.random.choice(transition[word])
+        if word == "EOB":
+            bulletpoint+=".\n"
+            pass
+        bulletpoint.write+=" "
+        # if transition[word]: 
+    return bulletpoint
 # prior = priorDict()
 # transition = transitionDict()
 # bulletpoint = open("bulletPoints.txt", "w")

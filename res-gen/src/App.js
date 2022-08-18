@@ -1,5 +1,5 @@
 import {Typography, Button, Grid, TextField} from '@mui/material'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import mm from "./Output/MMbulletPoints.txt"
 import hmm from "./Output/HMMbulletPoints.txt"
 
@@ -37,6 +37,26 @@ function GetMMData(){
     return data.content
 }
 
+function GetHMMData(){
+  fetch('/hmm',{
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      content: seed
+    })
+  }).then(
+      res => res.json()
+    ).then(
+      data => {
+        setData(data)
+        console.log(data)
+      }
+    ).catch(function(error) {
+      console.log("Request failed", error);
+    })
+    return data.content
+}
+
   function readMMTextFile(file){
     fetch(file)
     .then(r => r.text())
@@ -54,7 +74,7 @@ function GetMMData(){
   }
 
   const unHideHMM = () => {
-    getHMMBullet(readHMMTextFile(hmm))
+    getHMMBullet(GetHMMData())
   }
 
   const getSeed = () => {
@@ -71,11 +91,11 @@ function GetMMData(){
 
   return (
     <Grid container direction="column"
-    justifyContent="center"
-    alignItems="center"
-    style = {{height:"100vh"}}
-    padding='50px'
-    className="App">
+      justifyContent="center"
+      alignItems="center"
+      style = {{height:"100vh"}}
+      padding='50px'
+      className="App">
       <Typography variant="h1"> ResGen </Typography>
       <Typography variant="s2" marginTop='30px'> Click a button below for a resume bulletpoint! </Typography>
       <TextField style={{marginTop: '20px'}} id="outlined-basic" label="Start bulletpoint with" variant="outlined" size="small" onChange={handleSeedChange}/>
