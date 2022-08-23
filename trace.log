@@ -1,0 +1,870 @@
++(/usr/local/bin/pyenv:23): enable -f /usr/local/bin/../libexec/pyenv-realpath.dylib realpath
++(/usr/local/bin/pyenv:30): '[' -z '' ']'
+++(/usr/local/bin/pyenv:32): type -P greadlink readlink
+++(/usr/local/bin/pyenv:32): head -1
++(/usr/local/bin/pyenv:32): READLINK=/usr/bin/readlink
++(/usr/local/bin/pyenv:33): '[' -n /usr/bin/readlink ']'
++(/usr/local/bin/pyenv:58): '[' -z '' ']'
++(/usr/local/bin/pyenv:59): PYENV_ROOT=/Users/asiyakhan/.pyenv
++(/usr/local/bin/pyenv:63): export PYENV_ROOT
++(/usr/local/bin/pyenv:65): '[' -z '' ']'
++(/usr/local/bin/pyenv:66): PYENV_DIR=/Users/asiyakhan/Desktop/CSC492/ResGen
++(/usr/local/bin/pyenv:69): '[' '!' -d /Users/asiyakhan/Desktop/CSC492/ResGen ']'
++(/usr/local/bin/pyenv:69): '[' '!' -e /Users/asiyakhan/Desktop/CSC492/ResGen ']'
+++(/usr/local/bin/pyenv:73): cd /Users/asiyakhan/Desktop/CSC492/ResGen
+++(/usr/local/bin/pyenv:73): echo /Users/asiyakhan/Desktop/CSC492/ResGen
++(/usr/local/bin/pyenv:73): PYENV_DIR=/Users/asiyakhan/Desktop/CSC492/ResGen
++(/usr/local/bin/pyenv:74): export PYENV_DIR
++(/usr/local/bin/pyenv:77): shopt -s nullglob
+++(/usr/local/bin/pyenv:79): abs_dirname /usr/local/bin/pyenv
+++(/usr/local/bin/pyenv:40): abs_dirname(): local path=/usr/local/bin/pyenv
+++(/usr/local/bin/pyenv:44): abs_dirname(): '[' -n /usr/local/bin/pyenv ']'
+++(/usr/local/bin/pyenv:45): abs_dirname(): cd_path=/usr/local/bin
+++(/usr/local/bin/pyenv:46): abs_dirname(): [[ /usr/local/bin != \/\u\s\r\/\l\o\c\a\l\/\b\i\n\/\p\y\e\n\v ]]
+++(/usr/local/bin/pyenv:47): abs_dirname(): cd /usr/local/bin
+++(/usr/local/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/usr/local/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/usr/local/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
+++(/usr/local/bin/pyenv:50): abs_dirname(): path=../Cellar/pyenv/2.3.3/bin/pyenv
+++(/usr/local/bin/pyenv:44): abs_dirname(): '[' -n ../Cellar/pyenv/2.3.3/bin/pyenv ']'
+++(/usr/local/bin/pyenv:45): abs_dirname(): cd_path=../Cellar/pyenv/2.3.3/bin
+++(/usr/local/bin/pyenv:46): abs_dirname(): [[ ../Cellar/pyenv/2.3.3/bin != \.\.\/\C\e\l\l\a\r\/\p\y\e\n\v\/\2\.\3\.\3\/\b\i\n\/\p\y\e\n\v ]]
+++(/usr/local/bin/pyenv:47): abs_dirname(): cd ../Cellar/pyenv/2.3.3/bin
+++(/usr/local/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/usr/local/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/usr/local/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
+++(/usr/local/bin/pyenv:50): abs_dirname(): path=../libexec/pyenv
+++(/usr/local/bin/pyenv:44): abs_dirname(): '[' -n ../libexec/pyenv ']'
+++(/usr/local/bin/pyenv:45): abs_dirname(): cd_path=../libexec
+++(/usr/local/bin/pyenv:46): abs_dirname(): [[ ../libexec != \.\.\/\l\i\b\e\x\e\c\/\p\y\e\n\v ]]
+++(/usr/local/bin/pyenv:47): abs_dirname(): cd ../libexec
+++(/usr/local/bin/pyenv:49): abs_dirname(): name=pyenv
++++(/usr/local/bin/pyenv:50): abs_dirname(): resolve_link pyenv
++++(/usr/local/bin/pyenv:36): resolve_link(): /usr/bin/readlink pyenv
++++(/usr/local/bin/pyenv:50): abs_dirname(): true
+++(/usr/local/bin/pyenv:50): abs_dirname(): path=
+++(/usr/local/bin/pyenv:44): abs_dirname(): '[' -n '' ']'
+++(/usr/local/bin/pyenv:53): abs_dirname(): echo /usr/local/Cellar/pyenv/2.3.3/libexec
++(/usr/local/bin/pyenv:79): bin_path=/usr/local/Cellar/pyenv/2.3.3/libexec
++(/usr/local/bin/pyenv:80): for plugin_bin in '"${bin_path%/*}"/plugins/*/bin'
++(/usr/local/bin/pyenv:81): PATH=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin:/Users/asiyakhan/.nvm/versions/node/v14.19.2/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/Users/asiyakhan/.cabal/bin:/Users/asiyakhan/.ghcup/bin:/Users/asiyakhan/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/usr/local/bin/pyenv:85): '[' /usr/local/Cellar/pyenv/2.3.3 '!=' /Users/asiyakhan/.pyenv ']'
++(/usr/local/bin/pyenv:90): export PATH=/usr/local/Cellar/pyenv/2.3.3/libexec:/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin:/Users/asiyakhan/.nvm/versions/node/v14.19.2/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/Users/asiyakhan/.cabal/bin:/Users/asiyakhan/.ghcup/bin:/Users/asiyakhan/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/usr/local/bin/pyenv:90): PATH=/usr/local/Cellar/pyenv/2.3.3/libexec:/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin:/Users/asiyakhan/.nvm/versions/node/v14.19.2/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:/Users/asiyakhan/.cabal/bin:/Users/asiyakhan/.ghcup/bin:/Users/asiyakhan/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:/usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
++(/usr/local/bin/pyenv:92): PYENV_HOOK_PATH=:/Users/asiyakhan/.pyenv/pyenv.d
++(/usr/local/bin/pyenv:93): '[' /usr/local/Cellar/pyenv/2.3.3 '!=' /Users/asiyakhan/.pyenv ']'
++(/usr/local/bin/pyenv:95): PYENV_HOOK_PATH=:/Users/asiyakhan/.pyenv/pyenv.d:/usr/local/Cellar/pyenv/2.3.3/pyenv.d
++(/usr/local/bin/pyenv:97): PYENV_HOOK_PATH=:/Users/asiyakhan/.pyenv/pyenv.d:/usr/local/Cellar/pyenv/2.3.3/pyenv.d:/usr/local/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks
++(/usr/local/bin/pyenv:101): PYENV_HOOK_PATH=/Users/asiyakhan/.pyenv/pyenv.d:/usr/local/Cellar/pyenv/2.3.3/pyenv.d:/usr/local/etc/pyenv.d:/etc/pyenv.d:/usr/lib/pyenv/hooks
++(/usr/local/bin/pyenv:102): export PYENV_HOOK_PATH
++(/usr/local/bin/pyenv:104): shopt -u nullglob
++(/usr/local/bin/pyenv:107): command=install
++(/usr/local/bin/pyenv:108): case "$command" in
+++(/usr/local/bin/pyenv:121): command -v pyenv-install
++(/usr/local/bin/pyenv:121): command_path=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install
++(/usr/local/bin/pyenv:122): '[' -z /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install ']'
++(/usr/local/bin/pyenv:130): shift 1
++(/usr/local/bin/pyenv:131): '[' -v = --help ']'
++(/usr/local/bin/pyenv:138): exec /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install -v 3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:32): shopt -s nullglob
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:36): export PYTHON_BUILD_DEFINITIONS
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:37): shopt -u nullglob
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:40): '[' -v = --complete ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:53): python-build --lib
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:24): exec
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:57): lib --lib
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:51): lib(): '[' --lib == --lib ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:52): lib(): declare -f lib
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:53): lib(): echo 'lib "$1";'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:54): lib(): exit
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:53): eval 'lib () 
+{ 
+    function parse_options () 
+    { 
+        OPTIONS=();
+        ARGUMENTS=();
+        local arg option index;
+        for arg in "$@";
+        do
+            if [ "${arg:0:1}" = "-" ]; then
+                if [ "${arg:1:1}" = "-" ]; then
+                    OPTIONS[${#OPTIONS[*]}]="${arg:2}";
+                else
+                    index=1;
+                    while option="${arg:$index:1}"; do
+                        [ -n "$option" ] || break;
+                        OPTIONS[${#OPTIONS[*]}]="$option";
+                        index=$(($index+1));
+                    done;
+                fi;
+            else
+                ARGUMENTS[${#ARGUMENTS[*]}]="$arg";
+            fi;
+        done
+    };
+    if [ "$1" == "--$FUNCNAME" ]; then
+        declare -f "$FUNCNAME";
+        echo "$FUNCNAME \"\$1\";";
+        exit;
+    fi
+}
+lib "$1";'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:84): lib -v
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:78): lib(): '[' -v == --lib ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:69): unset FORCE
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:70): unset SKIP_EXISTING
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:71): unset KEEP
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:72): unset VERBOSE
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:73): unset HAS_PATCH
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:74): unset DEBUG
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:76): '[' -n 1 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:76): VERBOSE=-v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:78): parse_options -v 3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:57): parse_options(): OPTIONS=()
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:58): parse_options(): ARGUMENTS=()
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:59): parse_options(): local arg option index
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:60): parse_options(): for arg in '"$@"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:62): parse_options(): '[' - = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:63): parse_options(): '[' v = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:66): parse_options(): index=1
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:67): parse_options(): option=v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:68): parse_options(): '[' -n v ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:69): parse_options(): OPTIONS[${#OPTIONS[*]}]=v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:70): parse_options(): index=2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:67): parse_options(): option=
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:68): parse_options(): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:68): parse_options(): break
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:60): parse_options(): for arg in '"$@"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:62): parse_options(): '[' 3 = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:74): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:79): for option in '"${OPTIONS[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:80): case "$option" in
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:99): VERBOSE=-v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:116): '[' 1 -le 1 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:118): unset VERSION_NAME
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:124): DEFINITION=3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:125): '[' -n 3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:126): '[' -n 3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:131): declare -a before_hooks after_hooks
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:143): OLDIFS=' 	
+'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:144): IFS='
+'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:144): scripts=(`pyenv-hooks install`)
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:144): pyenv-hooks install
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:9): '[' install = --complete ']'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:18): PYENV_COMMAND=install
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:19): '[' -z install ']'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:24): enable -f /usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-realpath.dylib realpath
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:55): IFS=:
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:55): hook_paths=($PYENV_HOOK_PATH)
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:57): shopt -s nullglob
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:59): for script in '"$path/$PYENV_COMMAND"/*.bash'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:60): realpath /usr/local/Cellar/pyenv/2.3.3/pyenv.d/install/latest.bash
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:58): for path in '"${hook_paths[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/libexec/pyenv-hooks:63): shopt -u nullglob
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:145): IFS=' 	
+'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:146): for script in '"${scripts[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:146): source /usr/local/Cellar/pyenv/2.3.3/pyenv.d/install/latest.bash
+++(/usr/local/Cellar/pyenv/2.3.3/pyenv.d/install/latest.bash:1): DEFINITION_PREFIX=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/pyenv.d/install/latest.bash:2): DEFINITION_TYPE=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/pyenv.d/install/latest.bash:3): [[ 3.6.10 != \3\.\6\.\1\0 ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:151): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:151): VERSION_NAME=3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:152): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:153): PREFIX=/Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:155): '[' -d /Users/asiyakhan/.pyenv/versions/3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:159): '[' -d /Users/asiyakhan/.pyenv/versions/3.6.10/bin ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:177): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:184): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:184): '[' -d /Users/asiyakhan/.pyenv/cache ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:188): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:189): case "${VERSION_NAME}" in
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): pyenv-whence python3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): true
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): pyenv-whence python3.6
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): true
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): for version_info in '"${VERSION_NAME%-dev}"' '"${VERSION_NAME%.*}"' '"${VERSION_NAME%%.*}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): pyenv-whence python3
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:195): true
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:232): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:244): trap cleanup SIGINT
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:247): STATUS=0
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:248): python-build -v 3.6.10 /Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:24): exec
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:57): lib -v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:51): lib(): '[' -v == --lib ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1646): shopt -s extglob
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1663): shopt -u extglob
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1971): unset VERBOSE
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1972): unset KEEP_BUILD_PATH
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1973): unset HAS_PATCH
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1974): unset DEBUG
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1975): unset IPV4
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1976): unset IPV6
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1978): abs_dirname /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:65): abs_dirname(): local path=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:69): abs_dirname(): '[' -n /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:70): abs_dirname(): cd_path=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:71): abs_dirname(): [[ /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin != \/\u\s\r\/\l\o\c\a\l\/\C\e\l\l\a\r\/\p\y\e\n\v\/\2\.\3\.\3\/\p\l\u\g\i\n\s\/\p\y\t\h\o\n\-\b\u\i\l\d\/\b\i\n\/\p\y\t\h\o\n\-\b\u\i\l\d ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:72): abs_dirname(): cd /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:74): abs_dirname(): name=python-build
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:75): abs_dirname(): resolve_link python-build
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:61): resolve_link(): type -P greadlink readlink
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:61): resolve_link(): head -1
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:61): resolve_link(): /usr/bin/readlink python-build
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:75): abs_dirname(): true
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:75): abs_dirname(): path=
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:69): abs_dirname(): '[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:78): abs_dirname(): echo /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1978): PYTHON_BUILD_INSTALL_PREFIX=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/..
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1980): IFS=:
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1980): PYTHON_BUILD_DEFINITIONS=($PYTHON_BUILD_DEFINITIONS ${PYTHON_BUILD_ROOT:-$PYTHON_BUILD_INSTALL_PREFIX}/share/python-build)
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1981): IFS=' 	
+'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1983): parse_options -v 3.6.10 /Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:29): parse_options(): OPTIONS=()
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:30): parse_options(): ARGUMENTS=()
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:31): parse_options(): local arg option index
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:34): parse_options(): '[' - = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:35): parse_options(): '[' v = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:38): parse_options(): index=1
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:39): parse_options(): option=v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:40): parse_options(): '[' -n v ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:41): parse_options(): OPTIONS[${#OPTIONS[*]}]=v
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:42): parse_options(): index=2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:39): parse_options(): option=
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:40): parse_options(): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:40): parse_options(): break
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:34): parse_options(): '[' 3 = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:46): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:33): parse_options(): for arg in '"$@"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:34): parse_options(): '[' / = - ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:46): parse_options(): ARGUMENTS[${#ARGUMENTS[*]}]=/Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1985): for option in '"${OPTIONS[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1986): case "$option" in
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2000): VERBOSE=true
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2023): '[' 2 -eq 2 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2025): DEFINITION_PATH=3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2026): '[' -z 3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2028): '[' '!' -f 3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2029): for DEFINITION_DIR in '"${PYTHON_BUILD_DEFINITIONS[@]}"'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2030): '[' -f /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2031): DEFINITION_PATH=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2032): break
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2036): '[' '!' -f /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2042): PREFIX_PATH=/Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2043): '[' -z /Users/asiyakhan/.pyenv/versions/3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2045): '[' Users/asiyakhan/.pyenv/versions/3.6.10 = /Users/asiyakhan/.pyenv/versions/3.6.10 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2049): '[' -z /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/ ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2052): TMP=/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2056): tmp_executable=/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build-test.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2057): noexec=
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2058): mkdir -p /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2058): touch /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build-test.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2059): cat
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2063): chmod +x /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build-test.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2068): /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build-test.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2069): rm -f /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build-test.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2070): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2075): '[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2076): uname -s
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2076): '[' FreeBSD = Darwin ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2087): export MAKE=make
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2087): MAKE=make
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2091): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2094): unset PYTHON_BUILD_CACHE_PATH
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2097): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2098): PYTHON_BUILD_MIRROR_URL=https://pyenv.github.io/pythons
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2099): PYTHON_BUILD_DEFAULT_MIRROR=1
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2105): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2109): has_checksum_support compute_sha2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:283): has_checksum_support():local checksum_command=compute_sha2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:284): has_checksum_support():local has_checksum_var=HAS_CHECKSUM_SUPPORT_compute_sha2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:286): has_checksum_support():'[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:287): has_checksum_support()echo test
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:287): has_checksum_support()compute_sha2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:251): compute_sha2(): local output
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:252): compute_sha2(): type shasum
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:253): compute_sha2(): shasum -a 256 -b
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:253): compute_sha2(): output='f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2 *-'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:254): compute_sha2(): echo f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:287): has_checksum_support()echo 0
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:287): has_checksum_support():printf -v HAS_CHECKSUM_SUPPORT_compute_sha2 0
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:289): has_checksum_support():return 0
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2113): ARIA2_OPTS='  '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2114): CURL_OPTS='  '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2115): WGET_OPTS='  '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2118): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2123): package_option python configure --libdir=/Users/asiyakhan/.pyenv/versions/3.6.10/lib
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:720): package_option(): local package_name=python
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:721): package_option(): local command_name=configure
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:722): package_option(): capitalize python_configure
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): printf %s python_configure
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): tr a-z A-Z
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:722): package_option(): local variable=PYTHON_CONFIGURE_OPTS_ARRAY
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:723): package_option(): local 'array=PYTHON_CONFIGURE_OPTS_ARRAY[@]'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:724): package_option(): shift 2
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:725): package_option(): value=("${!array}" "$@")
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:725): package_option(): local value
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:726): package_option(): eval 'PYTHON_CONFIGURE_OPTS_ARRAY=( "${value[@]}" )'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:726): package_option(): PYTHON_CONFIGURE_OPTS_ARRAY=("${value[@]}")
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2126): [[   == *\-\-\e\n\a\b\l\e\-\s\h\a\r\e\d* ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2134): [[ '' == *\-\-\s\h\a\r\e\d* ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2139): [[   == *\-\-\e\n\a\b\l\e\-\f\r\a\m\e\w\o\r\k* ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2160): [[   == *\-\-\e\n\a\b\l\e\-\u\n\i\v\e\r\s\a\l\s\d\k* ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2177): [[ '' != *\-\-\e\n\a\b\l\e\-\u\n\i\c\o\d\e\=* ]]
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2178): is_mac
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2192): unset PIP_REQUIRE_VENV
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2193): unset PIP_REQUIRE_VIRTUALENV
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2196): '[' -e /Users/asiyakhan/.pydistutils.cfg ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2203): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2204): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2208): EZ_SETUP_URL=https://bootstrap.pypa.io/ez_setup.py
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2211): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2212): '[' -n '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2221): case "${DEFINITION_PATH##*/}" in
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2241): GET_PIP_URL=https://bootstrap.pypa.io/pip/3.6/get-pip.py
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2251): is_mac
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2252): '[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2253): sw_vers -productVersion
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2253): MACOS_VERSION=12.3
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2254): MACOS_VERSION_ARRAY=(${MACOS_VERSION//\./ })
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2255): '[' 2 -ge 2 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2256): export MACOSX_DEPLOYMENT_TARGET=12.3
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2256): MACOSX_DEPLOYMENT_TARGET=12.3
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2283): date +%Y%m%d%H%M%S
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2283): SEED=20220819190411.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2284): LOG_PATH=/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2285): python_bin_suffix 3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2262): python_bin_suffix(): local version_name version_info
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2263): python_bin_suffix(): case "$1" in
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2265): python_bin_suffix(): version_name=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2266): python_bin_suffix(): version_name=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2267): python_bin_suffix(): version_name=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2268): python_bin_suffix(): version_name=3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2269): python_bin_suffix(): version_info=(${version_name//./ })
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2270): python_bin_suffix(): echo 3.6
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2285): PYTHON_BIN=/Users/asiyakhan/.pyenv/versions/3.6.10/bin/python3.6
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2286): pwd
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2286): CWD=/Users/asiyakhan/Desktop/CSC492/ResGen
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2288): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2289): BUILD_PATH=/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2294): exec
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2295): '[' -n true ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2297): TAIL_PID=85501
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2298): trap 'kill 85501' SIGINT SIGTERM EXIT
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2301): export 'LDFLAGS=-L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2301): LDFLAGS='-L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2302): export 'CPPFLAGS=-I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2302): CPPFLAGS='-I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2304): unset PYTHONHOME
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2305): unset PYTHONPATH
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2307): trap build_failed ERR
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2308): mkdir -p /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2296): tail -f /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2309): source /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10:1): prefer_openssl11
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1406): prefer_openssl11(): PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA='openssl@1.1 openssl'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1407): prefer_openssl11(): export PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10:2): install_package openssl-1.1.0j https://www.openssl.org/source/old/1.1.0/openssl-1.1.0j.tar.gz#31bec6c203ce1a8e93d5994f4ed304c63ccf07676118b6634edded12ad1b3246 mac_openssl --if has_broken_mac_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:176): install_package(): install_package_using tarball 1 openssl-1.1.0j https://www.openssl.org/source/old/1.1.0/openssl-1.1.0j.tar.gz#31bec6c203ce1a8e93d5994f4ed304c63ccf07676118b6634edded12ad1b3246 mac_openssl --if has_broken_mac_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:208): install_package_using(local package_type=tarball
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:209): install_package_using(local package_type_nargs=1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:210): install_package_using(local package_name=openssl-1.1.0j
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:211): install_package_using(shift 3
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(fetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(local fetch_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(make_args=("$package_name")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(local make_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:215): install_package_using(local arg last_arg
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' '' = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' mac_openssl '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=mac_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=mac_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' mac_openssl = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' --if '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=--if
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' --if = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:219): install_package_using(has_broken_mac_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1425): has_broken_mac_openssis_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1426): has_broken_mac_opens/usr/bin/openssl version
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1426): has_broken_mac_opensslocal 'openssl_version=LibreSSL 2.8.3'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1427): has_broken_mac_openss[[ LibreSSL 2.8.3 = \O\p\e\n\S\S\L\ \0\.\9\.\8?* ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1427): has_broken_mac_openss[[ LibreSSL 2.8.3 = \L\i\b\r\e\S\S\L* ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1428): has_broken_mac_openssuse_homebrew_openssl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1432): use_homebrew_openssl(is_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1433): use_homebrew_openssl(command -v brew
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1434): use_homebrew_openssl(for openssl in '${PYTHON_BUILD_HOMEBREW_OPENSSL_FORMULA:-openssl}'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1435): use_homebrew_opensslbrew --prefix openssl@1.1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1435): use_homebrew_openssl(local ssldir=/usr/local/opt/openssl@1.1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1436): use_homebrew_openssl('[' -d /usr/local/opt/openssl@1.1 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1437): use_homebrew_openssl(echo 'python-build: use openssl@1.1 from homebrew'
+python-build: use openssl@1.1 from homebrew
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1438): use_homebrew_openssl([[ -n '' ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1443): use_homebrew_openssl(export 'CPPFLAGS=-I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1443): use_homebrew_openssl(CPPFLAGS='-I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1444): use_homebrew_openssl(export 'LDFLAGS=-L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1444): use_homebrew_openssl(LDFLAGS='-L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1446): use_homebrew_openssl(export PKG_CONFIG_PATH=/usr/local/opt/openssl@1.1/lib/pkgconfig/:
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1446): use_homebrew_openssl(PKG_CONFIG_PATH=/usr/local/opt/openssl@1.1/lib/pkgconfig/:
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1447): use_homebrew_openssl(return
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:219): install_package_using(return 0
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10:3): install_package readline-8.0 https://ftpmirror.gnu.org/readline/readline-8.0.tar.gz#e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461 mac_readline --if has_broken_mac_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:176): install_package(): install_package_using tarball 1 readline-8.0 https://ftpmirror.gnu.org/readline/readline-8.0.tar.gz#e339f51971478d369f8a053a330a190781acb9864cf4c541060f12078948e461 mac_readline --if has_broken_mac_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:208): install_package_using(local package_type=tarball
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:209): install_package_using(local package_type_nargs=1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:210): install_package_using(local package_name=readline-8.0
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:211): install_package_using(shift 3
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(fetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(local fetch_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(make_args=("$package_name")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(local make_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:215): install_package_using(local arg last_arg
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' '' = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' mac_readline '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=mac_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=mac_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' mac_readline = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' --if '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=--if
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' --if = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:219): install_package_using(has_broken_mac_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1385): has_broken_mac_readliis_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1386): has_broken_mac_readliconfigured_with_package_dir python readline/rlconf.h
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packcapitalize python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): printf %s python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): tr a-z A-Z
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packalocal package_var_name=PYTHON
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1303): configured_with_packashift 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1304): configured_with_packalocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1305): configured_with_packalocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1306): configured_with_packalocal arg flag
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1321): configured_with_packareturn 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1387): has_broken_mac_readliuse_homebrew_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1391): use_homebrew_readlineis_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1392): use_homebrew_readlineconfigured_with_package_dir python readline/rlconf.h
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packcapitalize python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): printf %s python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): tr a-z A-Z
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packalocal package_var_name=PYTHON
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1303): configured_with_packashift 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1304): configured_with_packalocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1305): configured_with_packalocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1306): configured_with_packalocal arg flag
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1321): configured_with_packareturn 1
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1393): use_homebrew_readlinbrew --prefix readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1393): use_homebrew_readlinelocal libdir=/usr/local/opt/readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1394): use_homebrew_readline'[' -d /usr/local/opt/readline ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1395): use_homebrew_readlineecho 'python-build: use readline from homebrew'
+python-build: use readline from homebrew
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1396): use_homebrew_readlineexport 'CPPFLAGS=-I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1396): use_homebrew_readlineCPPFLAGS='-I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1397): use_homebrew_readlineexport 'LDFLAGS=-L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1397): use_homebrew_readlineLDFLAGS='-L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:219): install_package_using(return 0
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10:4): has_tar_xz_support
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:514): has_tar_xz_support(): tar Jcf - /dev/null
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/3.6.10:5): install_package Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de standard verify_py37 copy_python_gdb ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:176): install_package(): install_package_using tarball 1 Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de standard verify_py37 copy_python_gdb ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:208): install_package_using(local package_type=tarball
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:209): install_package_using(local package_type_nargs=1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:210): install_package_using(local package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:211): install_package_using(shift 3
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(fetch_args=("$package_name" "${@:1:$package_type_nargs}")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:213): install_package_using(local fetch_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(make_args=("$package_name")
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:214): install_package_using(local make_args
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:215): install_package_using(local arg last_arg
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' '' = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' standard '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=standard
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=standard
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' standard = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' verify_py37 '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=verify_py37
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=verify_py37
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' verify_py37 = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' copy_python_gdb '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=copy_python_gdb
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=copy_python_gdb
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:217): install_package_using(for arg in '"${@:$(( $package_type_nargs + 1 ))}"'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:218): install_package_using('[' copy_python_gdb = --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:220): install_package_using('[' ensurepip '!=' --if ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:221): install_package_using(make_args["${#make_args[@]}"]=ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:223): install_package_using(last_arg=ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:226): install_package_using(pushd /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471
+/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471 ~/Desktop/CSC492/ResGen
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:227): install_package_using(fetch_tarball Python-3.6.10 https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:383): fetch_tarball(): local package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:384): fetch_tarball(): local package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:385): fetch_tarball(): local mirror_url
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:386): fetch_tarball(): local checksum
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:387): fetch_tarball(): local extracted_dir
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:389): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz#0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:390): fetch_tarball(): checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:391): fetch_tarball(): package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:393): fetch_tarball(): '[' -n https://pyenv.github.io/pythons ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:394): fetch_tarball(): [[ -z 1 ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:394): fetch_tarball(): [[ https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz != */www.python.org/* ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:400): fetch_tarball(): local tar_args=xzf
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:401): fetch_tarball(): local package_filename=Python-3.6.10.tar.gz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:403): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:411): fetch_tarball(): '[' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz '!=' https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar. ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:412): fetch_tarball(): type -p xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:415): fetch_tarball(): package_filename=Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:416): fetch_tarball(): tar_args=xJf
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:419): fetch_tarball(): reuse_existing_tarball Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:467): reuse_existing_tarballlocal package_filename=Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:468): reuse_existing_tarballlocal checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:471): reuse_existing_tarball'[' -e Python-3.6.10.tar.xz ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:476): reuse_existing_tarball'[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:476): reuse_existing_tarballreturn 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:421): fetch_tarball(): echo 'Downloading Python-3.6.10.tar.xz...'
+Downloading Python-3.6.10.tar.xz...
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:422): fetch_tarball(): http head ''
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:331): http(): local method=head
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:332): http(): '[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:332): http(): return 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:424): fetch_tarball(): download_tarball https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:485): download_tarball(): local official_source=www.python.org/ftp/python
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:486): download_tarball(): '[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:489): download_tarball(): local package_url=https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:491): download_tarball(): '[' -n https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:493): download_tarball(): local package_filename=Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:494): download_tarball(): local checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:496): download_tarball(): echo '-> https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz'
+-> https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:498): download_tarball(): http get https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:331): http(): local method=get
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:332): http(): '[' -n https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:333): http(): shift 1
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:335): http(): detect_http_client
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:342): detect_http_client():local client
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:343): detect_http_client():for client in aria2c curl wget
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:344): detect_http_client():type aria2c
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:343): detect_http_client():for client in aria2c curl wget
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:344): detect_http_client():type curl
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:345): detect_http_client():echo curl
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:346): detect_http_client():return
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:335): http(): PYTHON_BUILD_HTTP_CLIENT=curl
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:336): http(): '[' -n curl ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:338): http(): http_get_curl https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:371): http_get_curl(): curl -q -o Python-3.6.10.tar.xz -sSLf https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:499): download_tarball(): verify_checksum Python-3.6.10.tar.xz 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:293): verify_checksum(): local checksum_command
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:294): verify_checksum(): local filename=Python-3.6.10.tar.xz
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:295): verify_checksum(): echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:295): verify_checksum(): tr '[A-Z]' '[a-z]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:295): verify_checksum(): local expected_checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:298): verify_checksum(): '[' -e Python-3.6.10.tar.xz ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:300): verify_checksum(): case "${#expected_checksum}" in
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:303): verify_checksum(): checksum_command=compute_sha2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:314): verify_checksum(): has_checksum_support compute_sha2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:283): has_checksum_support()local checksum_command=compute_sha2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:284): has_checksum_support()local has_checksum_var=HAS_CHECKSUM_SUPPORT_compute_sha2
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:286): has_checksum_support()'[' -z defined ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:289): has_checksum_support()return 0
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:317): verify_checksum(): compute_sha2
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:317): verify_checksum(): tr '[A-Z]' '[a-z]'
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:251): compute_sha2(): local output
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:252): compute_sha2(): type shasum
++++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:253): compute_sha2(): shasum -a 256 -b
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:253): compute_sha2(): output='0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de *-'
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:254): compute_sha2(): echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:317): verify_checksum(): echo 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:317): verify_checksum(): local computed_checksum=0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:318): verify_checksum(): '[' -n 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:320): verify_checksum(): '[' 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de '!=' 0a833c398ac8cd7c5538f7232d8531afef943c60495c504484f308dac3af40de ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:505): download_tarball(): '[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:427): fetch_tarball(): tar xJf Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:428): fetch_tarball(): '[' '!' -d Python-3.6.10 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:433): fetch_tarball(): '[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:434): fetch_tarball(): rm -f Python-3.6.10.tar.xz
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:228): install_package_using(make_package Python-3.6.10 standard verify_py37 copy_python_gdb ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:237): make_package(): local package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:238): make_package(): shift
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:240): make_package(): pushd Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:241): make_package(): setup_builtin_patches Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1065): setup_builtin_patcheslocal package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1066): setup_builtin_patcheslocal package_patch_path=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/patches/3.6.10/Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1068): setup_builtin_patchesORIG_HAS_PATCH=
+/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471/Python-3.6.10 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471 ~/Desktop/CSC492/ResGen
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1070): setup_builtin_patches'[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1070): setup_builtin_patches'[' -d /usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../share/python-build/patches/3.6.10/Python-3.6.10 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:242): make_package(): before_install_package Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1057): before_install_packaglocal stub=1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:243): make_package(): build_package Python-3.6.10 standard verify_py37 copy_python_gdb ensurepip
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:701): build_package(): local package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:702): build_package(): shift
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:704): build_package(): '[' 4 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:707): build_package(): local 'commands=standard verify_py37 copy_python_gdb ensurepip'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:710): build_package(): echo 'Installing Python-3.6.10...'
+Installing Python-3.6.10...
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:712): build_package(): '[' -n '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:714): build_package(): for command in '$commands'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:715): build_package(): build_package_standard Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:807): build_package_standardbuild_package_standard_build Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:750): build_package_standardlocal package_name=Python-3.6.10
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:752): build_package_standard'[' '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:754): build_package_standard'[' -z '' ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:755): build_package_standarnum_cpu_cores
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:158): num_cpu_cores(): local num
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:159): num_cpu_cores(): case "$(uname -s)" in
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:159): num_cpu_cores(): uname -s
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:161): num_cpu_cores(): sysctl -n hw.ncpu
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:161): num_cpu_cores(): num=4
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:172): num_cpu_cores(): echo 4
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:755): build_package_standardMAKE_OPTS='-j 4'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:759): build_package_standarcapitalize Python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): printf %s Python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): tr a-z A-Z
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:759): build_package_standardlocal package_var_name=PYTHON
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:760): build_package_standardlocal PACKAGE_CONFIGURE=PYTHON_CONFIGURE
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:761): build_package_standardlocal PACKAGE_PREFIX_PATH=PYTHON_PREFIX_PATH
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:762): build_package_standardlocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:763): build_package_standardlocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_CONFIGURE_OPTS_ARRAY[@]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:764): build_package_standardlocal PACKAGE_MAKE_OPTS=PYTHON_MAKE_OPTS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:765): build_package_standardlocal 'PACKAGE_MAKE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:766): build_package_standardlocal PACKAGE_CFLAGS=PYTHON_CFLAGS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:768): build_package_standard'[' PYTHON = PYTHON ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:769): build_package_standarduse_homebrew
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1325): use_homebrew(): is_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1328): use_homebrew(): is_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1328): use_homebrew(): command -v brew
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1329): use_homebrew(): brew --prefix
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1329): use_homebrew(): local brew_prefix=/usr/local
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1331): use_homebrew(): [[ -n /usr/local ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1331): use_homebrew(): [[ /usr/local != \/\u\s\r ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1331): use_homebrew(): [[ /usr/local != \/\u\s\r\/\l\o\c\a\l ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:770): build_package_standarduse_tcltk
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1610): use_tcltk(): is_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1611): use_tcltk(): brew --prefix tcl-tk
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1611): use_tcltk(): local tcltk_libdir=/usr/local/opt/tcl-tk
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1613): use_tcltk(): get_tcltk_flag_from ''
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1592): get_tcltk_flag_from(IFS='
+'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1594): get_tcltk_flag_from(opts_arr=($(xargs -n1 <<<"$1"))
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1594): get_tcltk_flag_fromxargs -n1
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1594): get_tcltk_flag_from(local opts_arr
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1606): get_tcltk_flag_from(IFS=' 	
+'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1613): use_tcltk(): local tcl_tk_libs=
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1617): use_tcltk(): [[ -n '' ]]
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1619): use_tcltk(): '[' -d /usr/local/opt/tcl-tk ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:771): build_package_standarduse_homebrew_readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1391): use_homebrew_readlineis_mac
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 0 -eq 0 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1392): use_homebrew_readlineconfigured_with_package_dir python readline/rlconf.h
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packcapitalize python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): printf %s python
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:83): capitalize(): tr a-z A-Z
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1302): configured_with_packalocal package_var_name=PYTHON
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1303): configured_with_packashift 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1304): configured_with_packalocal PACKAGE_CONFIGURE_OPTS=PYTHON_CONFIGURE_OPTS
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1305): configured_with_packalocal 'PACKAGE_CONFIGURE_OPTS_ARRAY=PYTHON_MAKE_OPTS_ARRAY[@]'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1306): configured_with_packalocal arg flag
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1321): configured_with_packareturn 1
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1393): use_homebrew_readlinbrew --prefix readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1393): use_homebrew_readlinelocal libdir=/usr/local/opt/readline
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1394): use_homebrew_readline'[' -d /usr/local/opt/readline ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1395): use_homebrew_readlineecho 'python-build: use readline from homebrew'
+python-build: use readline from homebrew
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1396): use_homebrew_readlineexport 'CPPFLAGS=-I/usr/local/opt/readline/include -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1396): use_homebrew_readlineCPPFLAGS='-I/usr/local/opt/readline/include -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/Users/asiyakhan/.pyenv/versions/3.6.10/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1397): use_homebrew_readlineexport 'LDFLAGS=-L/usr/local/opt/readline/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1397): use_homebrew_readlineLDFLAGS='-L/usr/local/opt/readline/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:772): build_package_standardis_mac -ge 1014
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 2 -eq 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): osx_version
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:119): osx_version(): local -a ver
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): IFS=.
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): sw_vers -productVersion
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:121): osx_version(): IFS=' 	
+'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:122): osx_version(): echo 1203
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 1203 -ge 1014 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:773): build_package_standarduse_xcode_sdk_zlib
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1541): use_xcode_sdk_zlib()xcrun --show-sdk-path
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1541): use_xcode_sdk_zlib():local xc_sdk_path=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1542): use_xcode_sdk_zlib():'[' -d /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1543): use_xcode_sdk_zlib():echo 'python-build: use zlib from xcode sdk'
+python-build: use zlib from xcode sdk
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1544): use_xcode_sdk_zlib():export 'CFLAGS=-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1544): use_xcode_sdk_zlib():CFLAGS='-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1545): use_xcode_sdk_zlib():is_mac -ge 1100
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 2 -eq 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): osx_version
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:119): osx_version(): local -a ver
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): IFS=.
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): sw_vers -productVersion
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:121): osx_version(): IFS=' 	
+'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:122): osx_version(): echo 1203
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 1203 -ge 1100 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1546): use_xcode_sdk_zlib():export 'LDFLAGS=-L/usr/local/opt/readline/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib  -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1546): use_xcode_sdk_zlib():LDFLAGS='-L/usr/local/opt/readline/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/Users/asiyakhan/.pyenv/versions/3.6.10/lib  -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:779): build_package_standard'[' defined ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:780): build_package_standardexport 'CFLAGS=-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include  '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:780): build_package_standardCFLAGS='-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include  '
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:782): build_package_standard'[' -z '' ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:782): build_package_standardis_mac -ge 1010
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): uname -s
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:111): is_mac(): '[' Darwin = Darwin ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 2 -eq 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): osx_version
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:119): osx_version(): local -a ver
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): IFS=.
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): ver=(`sw_vers -productVersion`)
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:120): osx_version(): sw_vers -productVersion
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:121): osx_version(): IFS=' 	
+'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:122): osx_version(): echo 1203
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:112): is_mac(): '[' 1203 -ge 1010 ']'
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:783): build_package_standardexport CC=clang
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:783): build_package_standardCC=clang
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:785): build_package_standard./configure --prefix=/Users/asiyakhan/.pyenv/versions/3.6.10 --libdir=/Users/asiyakhan/.pyenv/versions/3.6.10/lib
+checking build system type... x86_64-apple-darwin21.4.0
+checking host system type... x86_64-apple-darwin21.4.0
+checking for python3.6... no
+checking for python3... python3
+checking for --enable-universalsdk... no
+checking for --with-universal-archs... no
+checking MACHDEP... darwin
+checking for --without-gcc... no
+checking for --with-icc... no
+checking for gcc... clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether clang accepts -g... yes
+checking for clang option to accept ISO C89... none needed
+checking how to run the C preprocessor... clang -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for --with-cxx-main=<compiler>... no
+checking for clang++... no
+configure:
+
+  By default, distutils will build C++ extension modules with "clang++".
+  If this is not intended, then set CXX on the configure command line.
+  
+checking for the platform triplet based on compiler characteristics... darwin
+configure: error: internal configure error for the platform triplet, please file a bug report
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:786): build_package_standardreturn 1
+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:789): build_package_standardmake -j 4
+make: *** No targets specified and no makefile found.  Stop.
+
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:749): build_package_standarbuild_failed
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:126): build_failed(): echo
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:127): build_failed(): colorize 1 'BUILD FAILED'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:91): colorize(): '[' -t 1 ']'
+BUILD FAILED+++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:92): colorize(): echo -n 'BUILD FAILED'
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:128): build_failed(): os_information
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:97): os_information(): type -p lsb_release
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:99): os_information(): type -p sw_vers
++++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:100): os_information(): sw_vers -productVersion
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:100): os_information(): echo 'OS X 12.3'
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:128): build_failed(): version
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1944): version(): local git_revision
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1946): version(): GIT_DIR=/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/../../../.git
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1946): version(): git remote -v
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1946): version(): grep -q /pyenv
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:1950): version(): echo 'python-build 20180424'
+ (OS X 12.3 using python-build 20180424)
+
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:128): build_failed(): echo ' (OS X 12.3 using python-build 20180424)'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:129): build_failed(): echo
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:131): build_failed(): rmdir /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471
+Inspect or clean up the working tree at /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:132): build_failed(): echo 'Inspect or clean up the working tree at /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:135): build_failed(): file_is_not_empty /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:146): file_is_not_empty(): local filename=/var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
+++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:147): file_is_not_empty():wc -l /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:147): file_is_not_empty(): local 'line_count=     121 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:149): file_is_not_empty(): '[' -n '     121 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log' ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:150): file_is_not_empty(): words=($line_count)
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:151): file_is_not_empty(): '[' 121 -gt 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:136): build_failed(): colorize 33 'Results logged to /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:91): colorize(): '[' -t 1 ']'
+Results logged to /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
+
+Last 10 log lines:
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:92): colorize(): echo -n 'Results logged to /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:137): build_failed(): printf '\n\n'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:138): build_failed(): echo 'Last 10 log lines:'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:139): build_failed(): tail -n 10 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:147): file_is_not_empty(): local 'line_count=     121 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:149): file_is_not_empty(): '[' -n '     121 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log' ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:150): file_is_not_empty(): words=($line_count)
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:151): file_is_not_empty(): '[' 121 -gt 0 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:136): build_failed(): colorize 33 'Results logged to /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:91): colorize(): '[' -t 1 ']'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:92): colorize(): echo -n 'Results logged to /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:137): build_failed(): printf '\n\n'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:138): build_failed(): echo 'Last 10 log lines:'
++++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:139): build_failed(): tail -n 10 /var/folders/yf/hstlqmld629254q25_9kzln00000gn/T/python-build.20220819190411.85471.log
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/python-build:2309): build_failed(): kill 85501
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:248): STATUS=1
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:251): '[' 1 == 2 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:279): '[' 1 == 0 ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:282): cleanup
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:241): cleanup(): '[' -z '' ']'
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:241): cleanup(): rm -rf /Users/asiyakhan/.pyenv/versions/3.6.10
++(/usr/local/Cellar/pyenv/2.3.3/plugins/python-build/bin/pyenv-install:285): exit 1

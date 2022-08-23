@@ -1,6 +1,6 @@
 
 #### STEP 1: REMOVE LINUX HEADING ###
-"""
+
 lines_per_file = 1000
 smallfile = None
 bigfile = open("resumes.txt", "r", encoding='mac_roman')
@@ -14,23 +14,22 @@ with bigfile:
         smallfile.write(line)
     if smallfile:
         smallfile.close()
-"""
 
 ### STEP 2: SEPERATE BULLET POINTS
 
-# import os
-# bulletpoint = open("trainingSet.txt", "w")
-# os.chdir("./smallRes")
-# for file in os.listdir("./"):
-#     openfile = open(file, encoding="utf8", errors='ignore')
-#     bigfile = openfile.readlines()
-#     line = bigfile[10]
-#     sol = line.split("√Ø ")
-#     for s in sol[1:]:
-#         s = s.replace('‚Ä†', '')
-#         bulletpoint.write(s)
-#         bulletpoint.write("\n")
-#     openfile.close()
+import os
+bulletpoint = open("trainingSet.txt", "w")
+os.chdir("./smallRes")
+for file in os.listdir("./"):
+    openfile = open(file, encoding="utf8", errors='ignore')
+    bigfile = openfile.readlines()
+    line = bigfile[10]
+    sol = line.split("√Ø ")
+    for s in sol[1:]:
+        s = s.replace('‚Ä†', '')
+        bulletpoint.write(s)
+        bulletpoint.write("\n")
+    openfile.close()
 
 
     
