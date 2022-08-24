@@ -155,7 +155,7 @@ def solHMM(seed):
         tag = np.random.choice(list(transition[tag].keys()), 1, True, probs)[0]
     bulletpoint+=".\n"
 
-    return bulletpoint
+    return bulletpoint.capitalize()
 
 if __name__ == "__main__":
     transition = buildTransition()

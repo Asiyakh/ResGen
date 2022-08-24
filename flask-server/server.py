@@ -28,7 +28,6 @@ def hmm():
 def hf():
     print("hf")
     request_data = request.get_json()
-    print(request_data)
     request_data['content'] = solHF(request_data['content'])
     print(request_data)
     return request_data

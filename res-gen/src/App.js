@@ -1,4 +1,4 @@
-import {Typography, Button, Grid, TextField} from '@mui/material'
+import {Typography, Button, Grid, TextField, Link} from '@mui/material'
 import React, { useState, useEffect } from 'react'
 import mm from "./Output/MMbulletPoints.txt"
 import hmm from "./Output/HMMbulletPoints.txt"
@@ -57,14 +57,11 @@ function GetHMMData(){
 }
 
 function GetHFData(){
-  if (!MMBullet){
-  getMMBullet(GetMMData)
-  }
   fetch('/hf',{
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      content: MMBullet
+      content: seed
     })
   }).then(
       res => res.json()
