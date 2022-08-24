@@ -11,15 +11,10 @@ Run alongside one another in different terminal tabs.
 cd flask-server
 python3 -m venv venv
 source venv/bin/activate
-pip3 install Flask
-pip3 install numpy
-pip3 install nltk
-pip3 install transformers
-pip3 install torch
-pip3 install gensim
+pip3 install flask numpy nltk transformers torch gensim
 python3 server.py
 
-(may require installations of numpy for example)
+if you run in to issues, you may need to update python
 
 ### Running React frontend.
 

@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
+
 import nltk
 from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 import ssl
 
+
+#nltk.download() #comment out after running once. 
 def priorTag():
     f = open('trainingSet.txt')
     lines = f.readlines()
